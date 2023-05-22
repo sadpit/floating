@@ -52,15 +52,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/floating-castle-hero.png" : {
-      "ft" : 32768,
-      "iS" : 2475266,
+    "\/public\/assets\/img\/floating-castle-hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 401651,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/floating-castle-hero.png",
+      "oAP" : "\/public\/assets\/img\/floating-castle-hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
