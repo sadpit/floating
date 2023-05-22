@@ -20,39 +20,60 @@
 
     <body>
         <div id="app" class="bg-white overflow-hidden h-100 d-flex flex-column">
-          <header class="position-relative container flex-grow-0 d-flex align-items-center py-3 pl-0 pr-2 pr-md-3 px-lg-0 bg-white">
+          <header class="position-relative container flex-grow-0 d-flex align-items-center py-3 bg-white">
             <nav class="position-static navbar navbar-expand-md w-100 p-0">
               <a class="main-logo text-underline-none" href="#">
                 <img src="assets/img/floating-castle-logo.svg">
-                <h3 class="mx-0 my-2">medvednarodni site-specific festival</h3>
+                <h3 class="mx-0 mt-2">medvednarodni site-specific festival</h3>
               </a>
 
-              <div class="collapse navbar-collapse overflow-hidden">
+              <button class="btn btn-menu-toggler" type="button" data-toggle="collapse" data-target="#FloatingMainNav" aria-controls="FloatingMainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="FloatingMainNav">
                 <ul class="navbar-nav ml-auto align-items-center">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="menuLineUp" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <span class="">Line up</span>
                     </a>
+                    <div class="dropdown-menu" aria-labelledby="menuLineUp">
+                      <button class="dropdown-item" type="button">Nastopajoči</button>
+                      <button class="dropdown-item" type="button">Urnik</button>
+                      <button class="dropdown-item" type="button">Mapa prizorišča</button>
+                    </div>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
                       <span class="">Masterclass</span>
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="menuSodeluj" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <span class="">Sodeluj</span>
                     </a>
+                    <div class="dropdown-menu" aria-labelledby="menuSodeluj">
+                      <button class="dropdown-item" type="button">Nastopajoči</button>
+                      <button class="dropdown-item" type="button">Masterclass</button>
+                      <button class="dropdown-item" type="button">Prostovoljci</button>
+                      <button class="dropdown-item" type="button">Vizualni umetniki</button>
+                      <button class="dropdown-item" type="button">Tržničarji</button>
+                    </div>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link rounded bg-primary text-white" href="#">
                       <span class="d-inline-block pt-1">Vstopnice</span>
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="menuInfo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <span class="">Info</span>
                     </a>
+                    <div class="dropdown-menu" aria-labelledby="menuInfo">
+                      <button class="dropdown-item" type="button">O festivalu</button>
+                      <button class="dropdown-item" type="button">Splošne info</button>
+                      <button class="dropdown-item" type="button">Press</button>
+                    </div>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
@@ -66,9 +87,9 @@
 
           <div class="main-content position-relative overflow-auto">
 
-            <section class="w-100 section-hero">
-              <div class="container position-relative d-flex align-items-center pb-5">
-                <img class="hero-img w-75" src="assets/img/floating-castle-hero.jpg">
+            <section class="w-100 overflow-hidden section-hero">
+              <div class="container position-relative d-flex align-items-center pb-md-5">
+                <img class="hero-img w-50" src="assets/img/floating-castle-hero.jpg">
 
                 <div class="position-absolute text-right r-0">
                   <img class="hero-logo" src="assets/img/floating-castle-logo.svg">
@@ -86,43 +107,27 @@
               <div class="val val-secondary"></div>
             </section>
 
-            <section class="w-100 pb-5 bg-secondary">
-              <div class="val val-sub-white mb-5"></div>
+            <section class="w-100 overflow-hidden pb-5 bg-secondary">
+              <div class="val val-sub-white"></div>
 
               <div class="py-5">
-                <div class="container py-5">
-                  <div class="d-flex">
-                    <div class="">
+                <div class="container py-md-5">
+                  <div class="d-md-flex">
+                    <div class="px-2 px-md-0">
                       <h2 class="text-white">Line up</h2>
                       <h4 class="text-white">220 koncertov, predstav in drugih nastopov na 17 vizualnih prizoriščih v osrčju snežniškega parka. Predstava, ki traja 4 dni in 3 noči.</h4>
                     </div>
-                    <div class="flex-shrink-0">
+                    <div class="flex-shrink-0 pt-5 pt-md-0">
                       <a class="btn btn-light ml-2" href="#">Program</a>
                       <a class="btn btn-primary ml-2" href="#">Vstopnice</a>
                     </div>
                   </div>
                 </div>
 
-                <div class="container-fluid p-5">
+                <div class="container-fluid py-5 p-md-5">
                   <div class="floating-grid row">
 
-                    <div class="col-2">
-                      <a class="d-block text-white text-decoration-none" href="#">
-                        <!--
-                          Sasha: Horizontalne fotke tukaj ne zgledajo prav lepo. Ena rešitev je da imamo posebni format za liste. Za to bi rabili skripto ali osebo ki bi jih kropala.
-                          Druga opcija je kot ta spodaj, da je slika v style, pa da čez CSS samo prividno kropam. To je slabo za SEO, ker se ta slika ne bo videla na Google, ampak mislim da se category strane ne indexirajo, tako da bi mogoče ta hack bil ok.
-
-                          Kaj mislite?
-                        -->
-                        <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img.jpg);">
-                          <div class="val val-img-secondary position-absolute b-0"></div>
-                        </div>
-                        <h3 class="mb-0 mt-3">Abu Guzuma</h3>
-                        <p class="mt-0 mb-5">Folk music from South of Turkey</p>
-                      </a>
-                    </div>
-
-                    <div class="col-2">
+                    <div class="col-6 col-md-4 col-lg-2">
                       <a class="d-block text-white text-decoration-none" href="#">
                         <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img.jpg);">
                           <div class="val val-img-secondary position-absolute b-0"></div>
@@ -132,7 +137,7 @@
                       </a>
                     </div>
 
-                    <div class="col-2">
+                    <div class="col-6 col-md-4 col-lg-2">
                       <a class="d-block text-white text-decoration-none" href="#">
                         <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img.jpg);">
                           <div class="val val-img-secondary position-absolute b-0"></div>
@@ -142,10 +147,19 @@
                       </a>
                     </div>
 
-                    <div class="col-2">
+                    <div class="col-6 col-md-4 col-lg-2">
                       <a class="d-block text-white text-decoration-none" href="#">
-                        <div class="position-relative overflow-hidden">
-                          <img class="w-100" src="assets/img/nastopajoci-sample-img.jpg">
+                        <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img.jpg);">
+                          <div class="val val-img-secondary position-absolute b-0"></div>
+                        </div>
+                        <h3 class="mb-0 mt-3">Abu Guzuma</h3>
+                        <p class="mt-0 mb-5">Folk music from South of Turkey</p>
+                      </a>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2">
+                      <a class="d-block text-white text-decoration-none" href="#">
+                        <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img.jpg);">
                           <div class="val val-img-secondary position-absolute b-0"></div>
                         </div>
                         <h3 class="mb-0 mt-3">Ailen Heredia Y Gaby Echevarria Legueras</h3>
@@ -153,10 +167,9 @@
                       </a>
                     </div>
 
-                    <div class="col-2">
+                    <div class="col-6 col-md-4 col-lg-2">
                       <a class="d-block text-white text-decoration-none" href="#">
-                        <div class="position-relative overflow-hidden">
-                          <img class="w-100" src="assets/img/nastopajoci-sample-img2.jpg">
+                        <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img.jpg);">
                           <div class="val val-img-secondary position-absolute b-0"></div>
                         </div>
                         <h3 class="mb-0 mt-3">Abu Guzuma</h3>
@@ -164,10 +177,9 @@
                       </a>
                     </div>
 
-                    <div class="col-2">
+                    <div class="col-6 col-md-4 col-lg-2">
                       <a class="d-block text-white text-decoration-none" href="#">
-                        <div class="position-relative overflow-hidden">
-                          <img class="w-100" src="assets/img/nastopajoci-sample-img.jpg">
+                        <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img.jpg);">
                           <div class="val val-img-secondary position-absolute b-0"></div>
                         </div>
                         <h3 class="mb-0 mt-3">Abu Guzuma</h3>
@@ -186,13 +198,13 @@
               <div class="val val-white col-6 offset-6"></div>
 
               <div class="container py-5">
-                <div class="d-flex pt-5">
-                  <div class="">
+                <div class="d-md-flex pt-5">
+                  <div class="px-2 px-md-0">
                     <h2 class="text-white">Masterclass</h2>
                     <h3 class="text-white">17. - 30. 07. 2023</h3>
                     <h4 class="text-white">intenzivnih mojstrskih delavnic bo potekalo na istem mestu kot Etno Histeria World Orchestra in Festival Plavajoči Grad: globoko v snežniških gozdovih pri Gradu Snežnik.</h4>
                   </div>
-                  <div class="flex-shrink-0">
+                  <div class="flex-shrink-0 pt-5 pt-md-0">
                     <a class="btn btn-light ml-2" href="#">O delavnicah</a>
                     <a class="btn btn-primary ml-2" href="#">Prijavi se</a>
                   </div>
@@ -204,10 +216,10 @@
               Lahko se pogovimo še o tem.
               -->
 
-              <div class="container-fluid p-5">
+              <div class="container-fluid p-md-5">
                 <div class="floating-grid row">
 
-                  <div class="col-2">
+                  <div class="col-6 col-md-4 col-lg-2">
                     <a class="d-block text-white text-decoration-none" href="#">
                       <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img.jpg);">
                         <div class="val val-img-secondary position-absolute b-0"></div>
@@ -217,7 +229,7 @@
                     </a>
                   </div>
 
-                  <div class="col-2">
+                  <div class="col-6 col-md-4 col-lg-2">
                     <a class="d-block text-white text-decoration-none" href="#">
                       <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img.jpg);">
                         <div class="val val-img-secondary position-absolute b-0"></div>
@@ -227,7 +239,7 @@
                     </a>
                   </div>
 
-                  <div class="col-2">
+                  <div class="col-6 col-md-4 col-lg-2">
                     <a class="d-block text-white text-decoration-none" href="#">
                       <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img2.jpg);">
                         <div class="val val-img-secondary position-absolute b-0"></div>
@@ -237,7 +249,7 @@
                     </a>
                   </div>
 
-                  <div class="col-2">
+                  <div class="col-6 col-md-4 col-lg-2">
                     <a class="d-block text-white text-decoration-none" href="#">
                       <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img2.jpg);">
                         <div class="val val-img-secondary position-absolute b-0"></div>
@@ -247,7 +259,7 @@
                     </a>
                   </div>
 
-                  <div class="col-2">
+                  <div class="col-6 col-md-4 col-lg-2">
                     <a class="d-block text-white text-decoration-none" href="#">
                       <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img.jpg);">
                         <div class="val val-img-secondary position-absolute b-0"></div>
@@ -257,7 +269,7 @@
                     </a>
                   </div>
 
-                  <div class="col-2">
+                  <div class="col-6 col-md-4 col-lg-2">
                     <a class="d-block text-white text-decoration-none" href="#">
                       <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img2.jpg);">
                         <div class="val val-img-secondary position-absolute b-0"></div>
@@ -267,7 +279,7 @@
                     </a>
                   </div>
 
-                  <div class="col-2">
+                  <div class="col-6 col-md-4 col-lg-2">
                     <a class="d-block text-white text-decoration-none" href="#">
                       <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img2.jpg);">
                         <div class="val val-img-secondary position-absolute b-0"></div>
@@ -277,7 +289,7 @@
                     </a>
                   </div>
 
-                  <div class="col-2">
+                  <div class="col-6 col-md-4 col-lg-2">
                     <a class="d-block text-white text-decoration-none" href="#">
                       <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img2.jpg);">
                         <div class="val val-img-secondary position-absolute b-0"></div>
@@ -287,7 +299,7 @@
                     </a>
                   </div>
 
-                  <div class="col-2">
+                  <div class="col-6 col-md-4 col-lg-2">
                     <a class="d-block text-white text-decoration-none" href="#">
                       <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img2.jpg);">
                         <div class="val val-img-secondary position-absolute b-0"></div>
@@ -297,7 +309,7 @@
                     </a>
                   </div>
 
-                  <div class="col-2">
+                  <div class="col-6 col-md-4 col-lg-2">
                     <a class="d-block text-white text-decoration-none" href="#">
                       <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img2.jpg);">
                         <div class="val val-img-secondary position-absolute b-0"></div>
@@ -307,7 +319,7 @@
                     </a>
                   </div>
 
-                  <div class="col-2">
+                  <div class="col-6 col-md-4 col-lg-2">
                     <a class="d-block text-white text-decoration-none" href="#">
                       <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img2.jpg);">
                         <div class="val val-img-secondary position-absolute b-0"></div>
@@ -317,7 +329,7 @@
                     </a>
                   </div>
 
-                  <div class="col-2">
+                  <div class="col-6 col-md-4 col-lg-2">
                     <a class="d-block text-white text-decoration-none" href="#">
                       <div class="position-relative overflow-hidden floating-thumbnail" style="background-image: url(assets/img/nastopajoci-sample-img2.jpg);">
                         <div class="val val-img-secondary position-absolute b-0"></div>
@@ -331,32 +343,32 @@
               </div>
             </section>
 
-            <section class="w-100 pt-5 bg-secondary position-relative">
-              <div class="row p-0 align-items-center">
-                <div class="col-6 position-relative">
+            <section class="w-100 overflow-hidden pt-md-5 bg-secondary position-relative">
+              <div class="row p-0 align-items-center pb-5 pb-lg-0">
+                <div class="col-12 col-lg-6 position-relative">
                   <img class="w-100" src="assets/img/nastopajoci-sample-img2.jpg">
                   <div class="position-absolute t-0 l-0 w-100 h-100 d-flex align-items-center justify-content-center text-center text-white">
-                    <h1 class="m-0 p-0 pt-5 text-shadow">Etno Histeria World Orchestra</h1>
+                    <h1 class="m-0 p-4 p-md-0 pt-md-5 text-shadow">Etno Histeria World Orchestra</h1>
                   </div>
                 </div>
-                <div class="col-4 offset-1 text-white">
+                <div class="col-10 col-lg-4 offset-1 text-white py-5">
                   <h2>100 glasbenikov iz 21 držav na petdnevni turneji po Sloveniji</h2>
-                  <p>Etno Histeria World Orchestra je mednarodni projekt, ki že 20 let združuje vrhunske glasbenike s celega sveta. Po intenzivnem tednu vzajemnega učenja in ustvarjanja med vinogradi slovenske Istre se v edinstveni zasedbi odpravi na turnejo in na petih koncertih postreže z okusno mineštro skladb iz vsega sveta, ki jih začini z avtorskim pristopom vsakega od udeležencev. Stočlanski orkester, ki ga vodi skupina izkušenih mentorjev, igra brez not in z improvizacijo ustvarja vedno nove dinamike. Sto glasbenikov v dvournem programu interpretira skladbe, ki vas bodo ponesle vse od Latinske Amerike, preko Istre, do Skandinavije in še naprej do Bližnjega vzhoda.</p>
+                  <p>Etno Histeria World Orchestra je mednarodni projekt, ki že 20 let združuje vrhunske glasbenike s celega sveta. Po intenzivnem tednu vzajemnega učenja in ustvarjanja med vinogradi slovenske Istre se v edinstveni zasedbi odpravi na turnejo in na petih koncertih postreže z okusno mineštro skladb iz vsega sveta, ki jih začini z avtorskim pristopom vsakega od udeležencev.</p>
 
-                  <a class="btn btn-light my-5" href="#">Več</a>
+                  <a class="btn btn-light mt-3" href="#">Več</a>
                 </div>
               </div>
 
               <div class="val val-double-bottom-white w-100 position-absolute b-0 l-0"></div>
             </section>
 
-            <section class="w-100 bg-white position-relative py-5">
+            <section class="w-100 overflow-hidden bg-white position-relative py-5 section-sodeluj">
               <div class="container py-5">
                 <div class="row align-items-center">
-                  <div class="col-6 text-right">
+                  <div class="col-12 col-md-6 text-right">
                     <h2 class="text-primary m-0 p-0 pr-3 line-height-1">Prijavi se in <br>sodeluj</h2>
                   </div>
-                  <div class="col-6 d-flex flex-column align-items-start">
+                  <div class="col-12 col-md-6 d-flex flex-column align-items-start pt-5 pt-md-0">
                     <a class="btn btn-primary my-1" href="#">Prostovoljci</a>
                     <a class="btn btn-primary my-1" href="#">Vizualni umetniki (stage, scenograf..)</a>
                     <a class="btn btn-primary my-1" href="#">Tržničarji (umetniški izdelki, hrana..)</a>
@@ -365,7 +377,7 @@
               </div>
             </section>
 
-            <footer class="container d-flex pb-5">
+            <footer class="container overflow-hidden d-flex pb-5">
               <div class="flex-grow-1 d-flex flex-wrap">
                 <img src="assets/img/footer-logo-1.png">
                 <img src="assets/img/footer-logo-2.png">

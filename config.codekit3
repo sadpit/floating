@@ -516,42 +516,6 @@
       "oAP" : "\/public\/assets\/webfonts\/fa-v4compatibility.woff2",
       "oF" : 0
     },
-    "\/public\/css\/css\/css\/main-blessed1.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/public\/css\/css\/css\/main-blessed1-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/public\/css\/css\/css\/main-blessed2-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/public\/css\/css\/css\/main-blessed2-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/public\/css\/css\/css\/main-blessed2.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/public\/css\/css\/css\/main-blessed2-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/public\/css\/css\/css\/main.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1472,9 +1436,9 @@
       "sct" : 0
     },
     "\/src\/styles\/themes\/floating\/main.scss" : {
-      "aP" : 0,
+      "aP" : 1,
       "bl" : 0,
-      "co" : 0,
+      "co" : 1,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,

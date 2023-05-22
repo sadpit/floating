@@ -21,6 +21,34 @@ h1, h2, h3 {
   font-family: $heading-font-family;
 }
 
+h1, .h1 {
+  @include media-breakpoint-only(lg) {
+    font-size: 4.25rem;
+  }
+}
+
+h2, .h2 {
+  line-height: 1;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 3.25rem;
+  }
+
+  @include media-breakpoint-only(lg) {
+    font-size: 3.25rem;
+  }
+}
+
+h3, .h3 {
+  @include media-breakpoint-down(sm) {
+    font-size: 1.5rem;
+  }
+
+  @include media-breakpoint-only(lg) {
+    font-size: 1.5rem;
+  }
+}
+
 .sub-heading {
   font-family: $sub-heading-font-family;
 }
@@ -251,17 +279,6 @@ h1, h2, h3 {
 
   h3 {
     font-size: 1.25rem;
-  }
-}
-
-footer {
-  img {
-    height: $spacer*3;
-    margin: 0 $spacer*2 $spacer 0;
-  }
-
-  a {
-    margin: $spacer*.2;
   }
 }
 
@@ -936,16 +953,69 @@ $max-height: 10;
 
 .section-hero {
   .hero-img {
-    margin-left: -10vw;
+    @include media-breakpoint-down(sm) {
+      position: absolute;
+      top: 0;
+      width: 100vw !important;
+    }
+    @include media-breakpoint-only(md) {
+      position: absolute;
+      width: 70vw !important;
+    }
+    @media (min-width: 1600px) {
+      margin-left: -5vw;
+      width: 60% !important;
+    }
+  }
+
+  .position-absolute {
+    @include media-breakpoint-down(sm) {
+      position: relative !important;
+      width: 100%;
+      padding: 2rem 0;
+    }
+    @include media-breakpoint-only(md) {
+      position: relative !important;
+      width: 100%;
+      padding: 2rem 0;
+    }
   }
 
   .hero-logo {
     width: 40vw;
     max-width: 800px;
+
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+
+    @include media-breakpoint-only(md) {
+      width: 60vw;
+    }
+  }
+
+  h1 {
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+    @include media-breakpoint-only(md) {
+      margin-bottom: 40vh !important;
+    }
+  }
+
+  h2 {
+    @include media-breakpoint-down(sm) {
+      font-size: 3.25rem !important;
+      margin-top: 43vh !important;
+    }
   }
 
   h3 {
     font-size: 2.25rem;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -994,4 +1064,111 @@ $max-height: 10;
 
 .text-shadow {
   text-shadow: 3px 3px 6px black;
+}
+
+
+header {
+  @include media-breakpoint-down(sm) {
+    width: 100% !important;
+    max-width: none !important;
+
+    &.py-3 {
+      padding: $spacer*.5 $spacer 0 $spacer !important;
+    }
+
+    .navbar-collapse {
+      .align-items-center {
+        align-items: flex-start !important;
+
+        > li {
+          margin-bottom: $spacer*2 !important;
+        }
+
+        .nav-link.rounded.bg-primary {
+          padding-left: $spacer*2 !important;
+          padding-right: $spacer*2 !important;
+        }
+      }
+
+      &.show {
+        position: relative;
+
+        &:after {
+          content: '';
+
+          position: fixed;
+          z-index: 1;
+          left: 0;
+          right: 0;
+          top: 90vh;
+          height: 10vh;
+          background-color: $white;
+        }
+      }
+    }
+  }
+  @include media-breakpoint-only(md) {
+    width: 100% !important;
+    max-width: none !important;
+
+    &.py-3 {
+      padding: $spacer*.5 $spacer 0 $spacer !important;
+    }
+  }
+
+  @include media-breakpoint-only(lg) {
+    width: 100% !important;
+    max-width: none !important;
+
+    &.py-3 {
+      padding: $spacer*.5 $spacer*2 0 $spacer*2 !important;
+    }
+  }
+}
+
+footer {
+  img {
+    height: $spacer*3;
+    margin: 0 $spacer*2 $spacer 0;
+  }
+
+  a {
+    margin: $spacer*.2;
+  }
+
+  @include media-breakpoint-down(sm) {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+
+    .flex-grow-1.d-flex.flex-wrap {
+      justify-content: center;
+    }
+
+    img {
+      height: $spacer*2;
+      margin: $spacer*.5;
+    }
+  }
+}
+
+.section-sodeluj {
+  @include media-breakpoint-down(sm) {
+    .text-right {
+      text-align: center !important;
+    }
+
+    .align-items-start {
+      align-items: center !important;
+    }
+  }
+}
+
+.btn-menu-toggler {
+  &[aria-expanded="true"] {
+    .fa-bars {
+      &:before {
+        content: 'x';
+      }
+    }
+  }
 }
