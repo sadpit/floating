@@ -1,0 +1,141 @@
+/* General form rules */
+
+.form {
+    .custom-checkbox,
+    .custom-radio {
+        margin-bottom: $spacer;
+    }
+}
+
+.form-content {
+    > .q-heading {
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.form-actions {
+    z-index: ($zindex-dropdown - 1) !important;
+
+    &.sticky-bottom {
+        @include media-breakpoint-up(md) {
+            transform: translate(0, - ($spacer*.5));
+        }
+
+        &:not(.stuck) {
+            border    : none !important;
+            box-shadow: none !important;
+        }
+    }
+
+    .custom-checkbox {
+        margin-left : $spacer;
+        margin-right: $spacer;
+    }
+}
+
+/* Questionnaire specific */
+
+.question {}
+
+.q-wrapper {
+    margin-bottom: $spacer*.25;
+}
+
+.q-heading {
+    margin: $spacer*3 0 $spacer;
+
+    &:last-child {
+        margin-bottom: 0 !important;
+    }
+}
+
+.q-question {
+    margin-bottom: $spacer*.5;
+}
+
+.q-approval {
+    .btn-approve {
+        span {
+            font-size: $font-size-sm;
+        }
+
+        &.btn-approve-toggle {
+            &:hover {
+                background-color: map-get($logi-colors, green-1);
+                border-color    : $success;
+
+                i,
+                span {
+                    color: $success !important;
+                }
+            }
+        }
+    }
+
+    .check-approve {
+        position: absolute;
+        height  : 100%;
+        width   : 100%;
+        opacity : 0;
+        z-index : 1;
+
+        cursor  : pointer;
+
+        &:hover + .btn-approve {
+          background-color: map-get($logi-colors, green-1);
+          border-color    : $success;
+
+          i,
+          span {
+              color: $success !important;
+          }
+        }
+
+        &:checked + .btn-approve {
+            // Approved
+
+            border-color    : transparent;
+            background-color: $success;
+
+            i,
+            span {
+                color: $white !important;
+            }
+        }
+
+        &:checked:hover + .btn-approve {
+            background-color: map-get($logi-colors, green-2);
+        }
+    }
+
+    .custom-checkbox,
+    .custom-radio {
+        margin-bottom: 0;
+    }
+
+    .text-danger a {
+        color          : $danger;
+        text-decoration: underline;
+    }
+}
+
+.q-answers {
+    > .question {
+        margin-left  : $spacer*2;
+        margin-bottom: 0;
+
+        @include media-breakpoint-down(sm) {
+          margin-left  : $spacer;
+        }
+    }
+
+    > .q-heading {
+        margin: $spacer !important;
+
+        @include media-breakpoint-down(sm) {
+          margin-left  : $spacer;
+        }
+    }
+}

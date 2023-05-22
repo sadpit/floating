@@ -1,0 +1,37 @@
+.dropdown {
+    &.show {
+        > .btn-outline-light {
+            background-color: $gray-100;
+        }
+    }
+}
+
+.dropdown-menu {
+    max-width: 20rem;
+
+    .dropdown-header {
+        &:first-child {
+            padding-top: $spacer*.5;
+        }
+    }
+
+    .dropdown-list {
+        max-height: 20vh;
+        overflow: auto;
+    }
+
+    .dropdown-item {
+        white-space  : nowrap;
+        text-overflow: ellipsis;
+
+        display      : block;
+        width        : 100%;
+        max-width    : 100%;
+        line-height  : $spacer*2;
+        overflow     : hidden;
+
+        &.action-required {
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+/*
+	Use any additional fontawesome set by importing it from the theme main.scss
+	After import, to use the icons, appropriate class has to be added in HTML, e.g. fa-duotone, fa-sharp-regular..
+*/
+
+@import "../fontawesome/fontawesome";
+@import "../fontawesome/light"; // The default icon set
+@import "../fontawesome/custom-icons"; // Custom icons added to fontawesome (e.g. aqqord logo)
+
+// Apply icon font family
+
+@mixin icon-font ($icon-content-code: false) {
+	font-family: 'Font Awesome 6 Pro';
+	-moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--icon-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: inherit;
+  text-rendering: auto;
+
+	@if $icon-content-code {
+		content: $icon-content-code;
+	}
+}
+
+*[class^="icon-"],
+*[class*=" icon-"] {
+	line-height: inherit;
+	@include icon-font;
+}

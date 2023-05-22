@@ -1,0 +1,26 @@
+.accordion {
+	.accordion-title {
+		cursor: pointer;
+
+		&:focus {
+			outline: none;
+		}
+
+		h2 {
+			*[class^="icon-"],
+			*[class*=" icon-"] {
+				font-size: $font-size-base;
+				margin-left: - $spacer*1.5;
+			}
+		}
+
+		&[aria-expanded="true"] {
+			h2 {
+				*[class^="icon-"],
+				*[class*=" icon-"] {
+					transform: rotate(0);
+				}
+			}
+		}
+	}
+}

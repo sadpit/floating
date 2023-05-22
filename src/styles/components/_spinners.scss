@@ -1,0 +1,7 @@
+.page-loader {
+    > div {
+        &:not(.modal-backdrop) {
+            z-index: $zindex-modal;
+        }
+    }
+}

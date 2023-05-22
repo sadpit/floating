@@ -1,0 +1,135 @@
+// stuck element (when .sticky-top/bottom turns to position fixed)
+
+.sticky-bottom {
+	@supports (position: sticky) {
+		position: sticky;
+		bottom  : 0;
+		z-index : $zindex-sticky;
+	}
+}
+
+.stuck-card-container {
+	> .card {
+		margin-left : - $spacer*1.75;
+		margin-right: - $spacer*1.75;
+
+		@include media-breakpoint-down(sm) {
+			margin-left : - $spacer*1;
+			margin-right: - $spacer*1;
+		}
+	}
+}
+
+.stuck {
+	.stuck-hidden {
+		display: none !important;
+	}
+
+	// Generally make elements smaller when in sticky position
+	// Disable the general rules on toolbars
+
+	&:not(.form-actions),
+	&:not(.grid-toolbar) {
+		a,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		p {
+			font-size  : $font-size-base;
+			font-weight: 400;
+
+			display    : inline-block;
+			margin     : 0 $spacer*.5 0 0;
+		}
+
+		h1 {
+			font-size: $h3-font-size;
+		}
+
+		.img-thumbnail {
+			max-width: $spacer*3 !important;
+		}
+
+		// Spacing classes set to half size in stuck state
+
+		@each $breakpoint in map-keys($grid-breakpoints) {
+			@include media-breakpoint-up($breakpoint) {
+				$infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+				@each $prop, $abbrev in (margin: m, padding: p) {
+					@each $size, $length in $spacers {
+						&.#{$abbrev}#{$infix}-#{$size},
+						.#{$abbrev}#{$infix}-#{$size} {
+							#{$prop}: $length !important;
+						}
+
+						&.#{$abbrev}t#{$infix}-#{$size},
+						&.#{$abbrev}y#{$infix}-#{$size},
+						.#{$abbrev}t#{$infix}-#{$size},
+						.#{$abbrev}y#{$infix}-#{$size} {
+							#{$prop}-top: $length*.5 !important;
+						}
+
+						&.#{$abbrev}r#{$infix}-#{$size},
+						&.#{$abbrev}x#{$infix}-#{$size},
+						.#{$abbrev}r#{$infix}-#{$size},
+						.#{$abbrev}x#{$infix}-#{$size} {
+							#{$prop}-right: $length*.5 !important;
+						}
+
+						&.#{$abbrev}b#{$infix}-#{$size},
+						&.#{$abbrev}y#{$infix}-#{$size},
+						.#{$abbrev}b#{$infix}-#{$size},
+						.#{$abbrev}y#{$infix}-#{$size} {
+							#{$prop}-bottom: $length*.5 !important;
+						}
+
+						&.#{$abbrev}l#{$infix}-#{$size},
+						&.#{$abbrev}x#{$infix}-#{$size},
+						.#{$abbrev}l#{$infix}-#{$size},
+						.#{$abbrev}x#{$infix}-#{$size} {
+							#{$prop}-left: $length*.5 !important;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// Card specific styles
+
+	.card {
+		margin-left : - $spacer;
+		margin-right: - $spacer;
+
+		@include media-breakpoint-up(md) {
+			align-items: center !important;
+		}
+
+		@include media-breakpoint-down(sm) {
+			> .btn {
+				margin-top: $spacer*.5 !important;
+			}
+		}
+
+		.sub-cards {
+			display    : inline-block;
+			padding-top: 0;
+		}
+
+		.card {
+			display   : inline-block;
+			margin    : auto;
+			margin-right: $spacer*.25;
+
+			box-shadow: none;
+
+			> .btn {
+				margin-top: 0 !important;
+			}
+		}
+	}
+}

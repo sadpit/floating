@@ -1,0 +1,23 @@
+/* General simple article/post */
+
+.article {
+    h1, h2, h3 {
+        margin: $spacer*2 0 $spacer 0;
+    }
+
+    h4, h5, h6 {
+        margin: $spacer 0 $spacer*.5 0;
+    }
+
+    p {
+        margin-bottom: $spacer*2;
+    }
+
+    ol, ul {
+        margin-bottom: $spacer*2;
+
+        li {
+            margin-bottom: $spacer;
+        }
+    }
+}

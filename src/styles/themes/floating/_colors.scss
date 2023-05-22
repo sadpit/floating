@@ -1,0 +1,65 @@
+// Logican, complete color palette
+
+$logi-colors: (
+    blue-1  : #a9c0ff,
+    blue-2  : #5e89ff,
+    blue-3  : #4075ff,
+    blue-4  : #0646f6,
+
+    cyan-1  : #b1e0ec,
+    cyan-2  : #6dc5dc,
+    cyan-3  : #52bad5,
+    cyan-4  : #2797b5,
+
+    red-1   : #f5b7ab,
+    red-2   : #ee836e,
+    red-3   : #e85c41,
+    red-4   : #d41b00,
+
+    yellow-1: #ffe8aa,
+    yellow-2: #fede88,
+    yellow-3: #fed156,
+    yellow-4: #fdb700,
+
+    green-1 : #c5e5de,
+    green-2 : #95d1c4,
+    green-3 : #72c1b0,
+    green-4 : #32917d,
+);
+
+// Bootstrap, global colors
+
+$white: #f0eddf;
+
+$gray-100: #f9f9fb;
+$gray-200: #ededf0;
+$gray-300: #c7c7c8;
+$gray-400: #aeaeaf;
+$gray-500: #959596;
+$gray-600: #7c7c7d;
+$gray-700: #636364;
+$gray-800: #4a4a4b;
+$gray-900: #313132;
+
+$black: #4b5c64;
+
+$blue: map-get($logi-colors, blue-3);
+$red: map-get($logi-colors, red-4);
+$yellow: map-get($logi-colors, yellow-3);
+$green: map-get($logi-colors, green-4);
+$teal: map-get($logi-colors, green-3);
+$cyan: map-get($logi-colors, cyan-3);
+
+// Color coded
+
+$primary: #222d34;
+$secondary: #859298;
+
+$success: $green;
+$info: map-get($logi-colors, yellow-2);
+
+$warning: $yellow;
+$danger: $red;
+
+$bg-highlighted: map-get($logi-colors, blue-1);
+$bg-greenlighted: map-get($logi-colors, green-1);

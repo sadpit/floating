@@ -1,0 +1,28 @@
+// Vue dropzone overrides
+
+body {
+    .vue-dropzone {
+        text-align: center;
+
+        min-height: 0;
+        padding: 0;
+
+        background: $gray-100;
+
+        border: none;
+        border-radius: $border-radius;
+
+        .dz-message {
+            margin: 0;
+            padding: $spacer*2 $spacer;
+
+            &:hover {
+                background: $gray-200;
+            }
+
+            .upload-text {
+              padding-left: $spacer;
+            }
+        }
+    }
+}

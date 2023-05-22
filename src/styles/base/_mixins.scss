@@ -1,0 +1,50 @@
+// Function to return font size per breakpoint
+
+@function get-base-font-size($breakpoint) {
+	$font-size: 16px;
+
+	@if $breakpoint == xs {
+		$font-size: 14px;
+	}
+	@if $breakpoint == sm {
+		$font-size: 14px;
+	}
+	@if $breakpoint == md {
+		$font-size: 15px;
+	}
+	@if $breakpoint == lg {
+		$font-size: 16px;
+	}
+	@if $breakpoint == xl {
+		$font-size: 16px;
+	}
+
+	@return $font-size;
+}
+
+// Function to return unit of the supplied value
+
+@function get-unit($value) {
+	@return str-slice($value * 0 + "", 2, -1);
+}
+
+// Function to return height in REMs based on font-size (PX, REM) and line-height (no unit)
+//
+
+@function get-size($font-size, $line-height, $breakpoint: xs) {
+	$size: $font-size-base;
+
+	@if get-unit($font-size) != px and get-unit($font-size) != rem {
+		@error "Function get-height accepts only px, rem for font-size and no unit for line-height";
+	}
+
+	@if get-unit($font-size) == rem {
+		$size: $font-size;
+	}
+
+	@if get-unit($font-size) == px {
+		$size: ($font-size / get-base-font-size($breakpoint)) * 1rem;
+	}
+
+	@return $size * $line-height;
+}

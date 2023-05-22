@@ -1,0 +1,21 @@
+// List global classes
+
+.list-documents {
+	> div {
+		&:hover {
+			> div {
+				> a.btn-circle.btn-sm.invisible,
+				> a.row-actions {
+					visibility: visible !important;
+				}
+			}
+		}
+	}
+
+	.btn-circle.btn-sm.invisible,
+	.row-actions.invisible {
+		@include media-breakpoint-down(md) {
+			visibility: visible !important;
+		}
+	}
+}

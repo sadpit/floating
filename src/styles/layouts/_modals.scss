@@ -1,0 +1,24 @@
+.modal-header {
+    .modal-title {
+        visibility: hidden;
+    }
+
+    .close {
+        outline: none;
+    }
+}
+
+.modal-body {
+    padding-top: 0;
+}
+
+.modal-footer {
+    padding-top: 0;
+}
+
+.modal-backdrop {
+    &[class^="bg-"],
+    &[class*=" bg-"] {
+        opacity: 1;
+    }
+}

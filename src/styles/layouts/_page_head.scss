@@ -1,0 +1,19 @@
+.page-head {
+    padding-top: $spacer*2.5;
+    padding-bottom: $spacer*2.5;
+
+    &.stuck {
+        padding-top: $spacer;
+        padding-bottom: $spacer;
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding-top: $spacer*2;
+        padding-bottom: $spacer*2;
+
+        &.stuck {
+            padding-top: $spacer;
+            padding-bottom: $spacer;
+        }
+    }
+}

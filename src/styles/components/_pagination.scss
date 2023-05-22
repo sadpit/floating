@@ -1,0 +1,25 @@
+.pagination {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+
+    border-bottom: $border-width solid $border-color;
+}
+
+.page-item {
+    margin: 0 $spacer*.25;
+}
+
+.page-link {
+    text-align: center;
+
+    width  : get-size($font-size-base, $pagination-line-height);
+
+    border-radius: $border-radius-lg !important;
+}
+
+.page-count {
+    margin-right: $spacer;
+}

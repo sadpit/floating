@@ -1,0 +1,785 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
+        <meta http-equiv="expires" content="0">
+        <meta http-equiv="pragma" content="no-cache">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>LogiClaim Agent Portal | Client details</title>
+
+        <link rel="icon" href="">
+
+        <link rel="stylesheet" href="https://use.typekit.net/lrs7vsg.css">
+
+        <link rel="stylesheet" href="css/css/css/main.css">
+    </head>
+
+    <body>
+        <div id="app" class="bg-light d-flex flex-column h-100 overflow-hidden">
+
+
+            <!-- AB: Header is not 100% the same as the header on details pages. -->
+            <header class="position-relative flex-grow-0 d-flex align-items-center py-2 pl-0 pr-2 pr-md-3 px-lg-3 bg-light border-bottom border-secondary">
+              <nav class="position-static navbar navbar-expand-md w-100 p-0">
+                <div class="d-flex d-md-none align-items-center w-50">
+                  <a class="btn btn-circle ml-0" href="#">
+                    <i class="fa fa-arrow-left"></i>
+                  </a>
+                  <span class="pr-1">1703165</span>
+                  <span class="text-nowrap text-truncate">/ Aleksandar Bozic</span>
+                </div>
+
+                <a class="btn btn-circle ml-3 mr-auto ml-md-0 mr-md-3" href="#" title="">
+                  <img class="client-logo" src="assets/img/sample-client-logo.svg">
+                </a>
+
+                <div class="collapse navbar-collapse overflow-hidden" id="logiclaim-agent-portal-nav">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">
+                        <span class="">Clients</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span class="">Claims</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span class="">To Do</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span class="">History</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span class="">Documents</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span class="">Reports</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+              <ul class="list-unstyled permanent-nav d-flex align-items-center p-0 m-0 my-md-auto ml-auto">
+                <li class="d-none d-md-block">
+                  <a href="#" class="btn btn-secondary btn-highlighted pl-0 pr-3 text-nowrap">
+                    <i class="fa fa-plus pl-3 m-0"></i>
+                    <span class="d-none d-md-inline pl-2">New party</span>
+                  </a>
+                </li>
+                <li class="dropdown">
+                  <a class="d-flex align-items-center text-decoration-none ml-3" href="#" title="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="m-0 mr-2 d-none d-lg-block text-nowrap">Welcome Aleksandar B.</span>
+                    <span class="btn btn-circle btn-secondary m-0">
+                      <i class="fa fa-user"></i>
+                    </span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Questionnaire import</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Log out</a>
+                  </div>
+                </li>
+              </ul>
+            </header>
+
+            <div class="main-content flex-grow-1 d-flex flex-row overflow-hidden bg-light position-relative">
+
+              <aside class="flex-grow-0 flex-shrink-0 w-aside collapse d-md-block bg-light logi-side-nav border-right" id="collapseSideNav">
+                <div class="px-lg-3 d-flex flex-column flex-nowrap h-100 overflow-hidden logi-side-wrapper">
+                  <div class="">
+                    <div class="p-3 mb-1 position-relative border-bottom">
+                      <p class="mb-0">Ref: 1703165</p>
+                      <a class="btn btn-secondary text-dark d-none">Submit lead</a>
+
+                      <a class="btn btn-circle position-absolute t-2 r-1" href="#">
+                        <i class="fa fa-cog"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-column overflow-auto logi-side-nav-list">
+
+                    <div class="p-3 p-md-2 p-lg-3 mb-1 position-relative border-bottom">
+                      <div class="d-flex flex-row align-items-start overflow-hidden">
+                        <div class="d-flex flex-column align-items-center mr-3 mr-md-2 mr-lg-3">
+                          <span class="btn btn-circle bg-greenlighted mb-2">
+                            <!-- AB: .fa-folder-open when active (a sub page is currently open), fa-folder when not -->
+                            <i class="fa fa-folder-open"></i>
+                            <!-- AB: The badge bellow when there are uncomplete claim sub sections -->
+                            <span class="badge badge-icon bg-danger badge-icon-sm position-absolute t-0 r-0">
+                            </span>
+                          </span>
+                          <!-- AB: These are initials of the assiciated contact -->
+                          <span class="badge badge-info mb-2">
+                            <span class="small">AB</span>
+                          </span>
+                        </div>
+
+                        <div class="fix-overflow position-relative">
+                          <h4 class="mt-2 mb-1">1 - Motor Finance</h4>
+                          <p class="small m-0 text-truncate">Black Horse Ltd</p>
+                          <p class="small m-0 text-truncate">*********6213 - 13/10/2018</p>
+                          <p class="small m-0 text-truncate">6. Live - Packaging</p>
+
+                          <ul class="list-unstyled p-0 mt-3 mb-0">
+                            <!-- AB: .bg-highlighted when active -->
+                            <!-- AB: Add <sup> with asterisk to mark incomplete page -->
+                            <li class="px-2 py-1 rounded bg-highlighted">
+                              <a class="" href="#">Claim Details
+                                <sup class="">
+                                  <span class="badge badge-icon bg-danger badge-icon-xs">
+                                  </span>
+                                </sup>
+                              </a>
+                            </li>
+                            <li class="px-2 py-1 rounded"><a class="" href="#">Fees</a></li>
+                            <li class="px-2 py-1 rounded">
+                              <a class="" href="#">Complete my complaint
+                                <sup class="">
+                                  <span class="badge badge-icon bg-danger badge-icon-xs">
+                                  </span>
+                                </sup>
+                              </a>
+                            </li>
+                            <li class="px-2 py-1 rounded"><a class="" href="#">Information required</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="p-3 p-md-2 p-lg-3 mb-1 position-relative border-bottom">
+                      <div class="d-flex flex-row align-items-start overflow-hidden">
+                        <div class="d-flex flex-column align-items-center mr-3 mr-md-2 mr-lg-3">
+                          <span class="btn btn-circle bg-greenlighted mb-2">
+                            <i class="fa fa-folder"></i>
+                          </span>
+                          <span class="badge badge-info mb-2">
+                            <span class="small">AB</span>
+                          </span>
+                        </div>
+
+                        <div class="fix-overflow position-relative">
+                          <h4 class="mt-2 mb-1">2 - Motor Finance</h4>
+                          <p class="small m-0 text-truncate">Black Horse Ltd</p>
+                          <p class="small m-0 text-truncate">*********6213 - 13/10/2018</p>
+                          <p class="small m-0 text-truncate">6. Live - Packaging</p>
+
+                          <!-- AB: .d-none when not active -->
+                          <ul class="list-unstyled p-0 mt-3 mb-0 d-none">
+                            <li class="px-2 py-1 rounded"><a class="" href="#">Claim Details</a></li>
+                            <li class="px-2 py-1 rounded"><a class="" href="#">Fees</a></li>
+                            <li class="px-2 py-1 rounded"><a class="" href="#">Complete my complaint</a></li>
+                            <li class="px-2 py-1 rounded"><a class="" href="#">Information required</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </aside>
+
+              <a class="btn btn-circle d-md-none position-absolute t-3 l-2 logi-collapse-side-nav-btn" data-toggle="collapse" href="#collapseSideNav" role="button" aria-expanded="false" aria-controls="collapseSideNav">
+                <i class="fa fa-bars"></i>
+              </a>
+
+
+
+                <div class="flex-grow-1 position-relative">
+
+                    <div class="d-flex flex-row h-100 justify-content-center position-relative logi-main-cols-wrapper">
+
+                        <div class="w-100 w-lg-50 w-forms-container max-vh-100 bg-white border-left border-secondary shadow mx-auto logi-main-col">
+                            <div class="py-3 p-md-4 d-flex flex-column flex-nowrap h-100 overflow-hidden">
+
+                                <div class="px-4">
+                                  <h3 class="my-2 pl-4 pl-md-0">Contact details</h3>
+                                </div>
+
+                                <div class="px-4 overflow-auto">
+                                  <p><i class="text-muted">Test content</i></p>
+                                </div>
+
+                                <div class="pt-3 px-4 d-flex justify-content-center border-top border-secondary">
+                                    <a class="btn btn-primary btn-sm mx-2" href="">Save</a>
+                                    <a class="btn btn-secondary btn-sm mx-2" href="">Cancel</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- AB: add/remove class "show" on .collapse element below to expand collapse it -->
+                        <div class="w-100 w-lg-50 w-forms-container h-100 max-vh-100 bg-white border-left border-secondary shadow d-block collapse logi-right-col show" id="collapseRightCol">
+                          <div class="py-3 p-md-4 d-flex flex-column flex-nowrap h-100 overflow-hidden logi-col-wrapper">
+
+                            <div class="d-flex flex-row logi-col-header mb-2">
+                              <nav class="position-static navbar navbar-expand p-0 overflow-hidden">
+                                <div class="">
+                                  <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item text-nowrap text-elipsis">
+                                      <a class="nav-link" href="#">
+                                        <span class="">To do</span>
+                                      </a>
+                                    </li>
+                                    <li class="nav-item text-nowrap text-elipsis active">
+                                      <a class="nav-link" href="#">
+                                        <span class="">History</span>
+                                      </a>
+                                    </li>
+                                    <li class="nav-item text-nowrap text-elipsis">
+                                      <a class="nav-link" href="#">
+                                        <span class="">Documents</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </nav>
+
+                              <ul class="list-unstyled d-flex align-items-center p-0 m-0 ml-auto logi-collapse-nav">
+                                <li class="dropdown favourites-dropdown ml-2">
+                                  <a class="btn btn-circle btn-secondary" href="#" title="" id="favorites" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-star"></i>
+                                  </a>
+                                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="favorites">
+                                    <a class="dropdown-item" href="#">Favorite 1</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Favorite 2</a>
+                                  </div>
+                                </li>
+
+                                <li class="ml-2">
+                                  <a class="btn btn-circle btn-secondary" data-toggle="collapse" href="#collapseRightCol" role="button" aria-expanded="true" aria-controls="collapseRightCol">
+                                    <i class="fa fa-layer-group"></i>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+
+
+
+
+                            <!-- Grid toolbar -->
+                            <div class="grid-toolbar bg-light rounded mb-2">
+                              <div class="d-flex flex-row px-4 py-2">
+                                <div class="flex-grow-0 d-flex align-items-center py-2">
+                                  <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" id="" name="" class="custom-control-input" checked>
+                                    <label class="custom-control-label"></label>
+                                  </div>
+                                </div>
+
+                                <div id="grid-toolbar-actions" class="flex-grow-0 d-flex align-items-center">
+                                  <a class="btn btn-circle" href="#" title="Delete selected" data-toggle="tooltip" data-placement="top">
+                                    <span class="fa fa-trash"></span>
+                                  </a>
+
+                                  <a class="btn btn-circle" href="#" title="Assign to client or claim" data-toggle="tooltip" data-placement="top">
+                                    <span class="fa fa-folder-arrow-up"></span>
+                                  </a>
+                                </div>
+
+                                <!-- AB NOTE:
+                                  #grid-toolbar-actions is visible only if one or more row checkboxes are selected in the grid.
+                                  #grid-toolbar-filters is visible if #grid-toolbar-actions is hidden.
+                                  So display only one at a time
+
+                                <div id="grid-toolbar-filters" class="grid-toolbar-filters flex-grow-1 d-flex flex-wrap align-items-center">
+                                  <span class="badge bg-info max-width-8 rounded-lg align-items-center m-1 d-flex flex-row overflow-hidden">
+                                    <span class="text-truncate">Client</span>
+                                    <i class="icon-x small pl-3"></i>
+                                  </span>
+                                  <span class="badge bg-greenlighted max-width-8 rounded-lg align-items-center m-1 d-flex flex-row overflow-hidden">
+                                    <span class="text-truncate">1 - Motor Finance</span>
+                                    <i class="icon-x small pl-3"></i>
+                                  </span>
+                                  <span class="badge bg-dark max-width-8 text-white rounded-lg align-items-center m-1 d-flex flex-row overflow-hidden">
+                                    <span class="text-truncate">Email</span>
+                                    <i class="icon-x small pl-3"></i>
+                                  </span>
+                                  <span class="badge bg-dark max-width-8 text-white rounded-lg align-items-center m-1 d-flex flex-row overflow-hidden">
+                                    <span class="text-truncate">£</span>
+                                    <i class="icon-x small pl-3"></i>
+                                  </span>
+                                </div>
+                                -->
+
+                                <ul class="list-unstyled flex-grow-0 d-flex align-items-center p-0 m-0 ml-auto">
+                                  <li class="dropdown ml-2">
+                                    <a href="#" class="btn btn-circle" id="dropdownFilters" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <i class="fa fa-filter"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownFilters">
+                                      <ul class="list-unstyled p-0 m-0">
+                                        <li><h3 class="px-4 mb-4">Filter</h3></li>
+
+                                        <li><h4 class="px-4 mb-3">By relevant to:</h4></li>
+                                        <li><a class="dropdown-item" href="#"><span>Client</span></a></li>
+                                        <li><a class="dropdown-item" href="#"><span>1 - Motor Finance</span></a></li>
+                                        <li><a class="dropdown-item" href="#"><span>2 - Motor Finance</span></a></li>
+
+                                        <li class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#"><span>Billable</span></a></li>
+                                        <li class="dropdown-divider"></li>
+
+                                        <li><h4 class="px-4 mb-3">By type:</h4></li>
+                                        <li><a class="dropdown-item" href="#"><span>Emails</span></a></li>
+                                        <li><a class="dropdown-item" href="#"><span>File notes</span></a></li>
+                                        <li><a class="dropdown-item" href="#"><span>Documents (pdf, Word, csv..)</span></a></li>
+                                      </ul>
+                                    </div>
+                                  </li>
+
+
+
+                                  <li class="dropdown ml-2">
+                                    <a href="#" class="btn btn-circle btn-primary" id="dropdownAddToHistory" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownAddToHistory">
+                                      <a class="dropdown-item" href="#">
+                                        <i class="fa fa-file-pen mr-2"></i>
+                                        <span>Write a note</span>
+                                      </a>
+                                      <a class="dropdown-item" href="#">
+                                        <i class="fa fa-paperclip mr-2"></i>
+                                        <span>Attach a file</span>
+                                      </a>
+                                      <a class="dropdown-item" href="#">
+                                        <i class="fa fa-files mr-2"></i>
+                                        <span>Add document from library</span>
+                                      </a>
+                                    </div>
+                                  </li>
+                                </ul>
+
+                              </div>
+                            </div>
+
+
+
+
+
+                            <!-- Grid content -->
+                            <div class="grid-content flex-grow-1 flex-shrink-1 overflow-hidden d-flex flex-column flex-nowrap overflow-hidden">
+                              <div class="flex-shrink-1 overflow-auto">
+
+                                <!-- Type: Action run (no document generated) -->
+                                <div class="grid-row d-flex flex-row px-4">
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <div class="custom-control custom-checkbox">
+                                      <input type="checkbox" id="" name="" class="custom-control-input">
+                                      <label class="custom-control-label"></label>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <span href="#" class="btn btn-circle btn bg-info">
+                                      <i class="fa fa-calendar-check"></i>
+                                    </span>
+                                  </div>
+
+                                  <div class="flex-grow-1 d-flex align-items-start p-2 border-bottom border-secondary overflow-hidden">
+                                    <div class="w-100">
+                                      <p class="d-block text-truncate mb-0"><a href="#">Client invitation to portal</a></p>
+                                      <p class="d-block text-truncate mb-0 text-dark">Client</p>
+                                      <!-- This example is without description -->
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start pl-5 py-2 border-bottom border-secondary">
+                                    <div class="text-right">
+                                      <p class="d-block text-truncate mb-0 small">08:54</p>
+                                      <p class="d-block text-truncate mb-0 small">Aleksandar Bozic</p>
+                                      <!-- This example is without billing -->
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- Type: File note -->
+                                <div class="grid-row d-flex flex-row px-4">
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <div class="custom-control custom-checkbox">
+                                      <input type="checkbox" id="" name="" class="custom-control-input">
+                                      <label class="custom-control-label"></label>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <span href="#" class="btn btn-circle btn bg-greenlighted">
+                                      <i class="fa fa-file-pen"></i>
+                                    </span>
+                                  </div>
+
+                                  <div class="flex-grow-1 d-flex align-items-start p-2 border-bottom border-secondary overflow-hidden">
+                                    <div class="w-100">
+                                      <p class="d-block text-truncate mb-0"><a href="#">Note</a></p>
+                                      <p class="d-block text-truncate mb-0 text-dark">1 - Motor Finance</p>
+                                      <!-- The description expands on focus, tabindex="0" is required -->
+                                      <p class="d-block text-truncate focus-untruncate mb-0 text-dark" tabindex="0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start pl-5 py-2 border-bottom border-secondary">
+                                    <div class="text-right">
+                                      <p class="d-block text-truncate mb-0 small">08:54</p>
+                                      <p class="d-block text-truncate mb-0 small">Aleksandar Bozic</p>
+                                      <span class="badge btn-secondary"><span class="small">£9.00</span> <i class="fa fa-chevron-down small"></i></span>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- Type: File note with activity type -->
+                                <div class="grid-row d-flex flex-row px-4">
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <div class="custom-control custom-checkbox">
+                                      <input type="checkbox" id="" name="" class="custom-control-input">
+                                      <label class="custom-control-label"></label>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <span href="#" class="btn btn-circle btn bg-greenlighted">
+                                      <i class="fa fa-file-pen"></i>
+                                    </span>
+                                  </div>
+
+                                  <div class="flex-grow-1 d-flex align-items-start p-2 border-bottom border-secondary overflow-hidden">
+                                    <div class="w-100">
+                                      <!-- Below is the activity type field -->
+                                      <p class="d-block text-truncate mb-0"><a href="#">Investigating</a></p>
+                                      <p class="d-block text-truncate mb-0 text-dark">1 - Motor Finance</p>
+                                      <!-- The description expands on focus, tabindex="0" is required -->
+                                      <p class="d-block text-truncate focus-untruncate mb-0 text-dark" tabindex="0">Been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start pl-5 py-2 border-bottom border-secondary">
+                                    <div class="text-right">
+                                      <p class="d-block text-truncate mb-0 small">08:54</p>
+                                      <p class="d-block text-truncate mb-0 small">Aleksandar Bozic</p>
+                                      <!-- This example is without billing -->
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- Type: Document - Created from action -->
+                                <div class="grid-row d-flex flex-row px-4">
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <div class="custom-control custom-checkbox">
+                                      <input type="checkbox" id="" name="" class="custom-control-input">
+                                      <label class="custom-control-label"></label>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <span href="#" class="btn btn-circle btn bg-greenlighted">
+                                      <i class="fa fa-file-pdf"></i>
+                                    </span>
+                                  </div>
+
+                                  <div class="flex-grow-1 d-flex align-items-start p-2 border-bottom border-secondary overflow-hidden">
+                                    <div class="w-100">
+                                      <p class="d-block text-truncate mb-0"><a href="#">Letter of Authority Lender</a></p>
+                                      <p class="d-block text-truncate mb-0 text-dark">1 - Motor Finance</p>
+                                      <!-- This example is without description -->
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start pl-5 py-2 border-bottom border-secondary">
+                                    <div class="text-right">
+                                      <p class="d-block text-truncate mb-0 small">08:54</p>
+                                      <p class="d-block text-truncate mb-0 small">Aleksandar Bozic</p>
+                                      <span class="badge btn-secondary"><span class="small">£9.00</span> <i class="fa fa-chevron-down small"></i></span>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+
+
+
+                                <!-- Type: Document - Created from action Email -->
+                                <div class="grid-row d-flex flex-row px-4">
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <div class="custom-control custom-checkbox">
+                                      <input type="checkbox" id="" name="" class="custom-control-input">
+                                      <label class="custom-control-label"></label>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <span href="#" class="btn btn-circle btn bg-greenlighted">
+                                      <i class="fa fa-envelope"></i>
+                                      <!--
+                                        For emails we need to mark incoming/outgoing
+                                        - Sent by action, sent from the system are outgoing
+                                        - Attached are icomming
+                                      -->
+                                      <span class="badge badge-icon bg-greenlighted position-absolute t-0">
+                                        <i class="fa fa-arrow-up"></i>
+                                      </span>
+                                    </span>
+                                  </div>
+
+                                  <div class="flex-grow-1 d-flex align-items-start p-2 border-bottom border-secondary overflow-hidden">
+                                    <div class="w-100">
+                                      <p class="d-block text-truncate mb-0"><a href="#">Enquiries are underway - Ref: 1703165/1/366</a></p>
+                                      <p class="d-block text-truncate mb-0 text-dark">1 - Motor Finance</p>
+                                      <!-- This example is without description -->
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start pl-5 py-2 border-bottom border-secondary">
+                                    <div class="text-right">
+                                      <p class="d-block text-truncate mb-0 small">08:54</p>
+                                      <p class="d-block text-truncate mb-0 small">Aleksandar Bozic</p>
+                                      <span class="badge btn-secondary"><span class="small">£9.00</span> <i class="fa fa-chevron-down small"></i></span>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+
+
+
+                                <!-- Type: Document - Attached PDF -->
+                                <div class="grid-row d-flex flex-row px-4">
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <div class="custom-control custom-checkbox">
+                                      <input type="checkbox" id="" name="" class="custom-control-input">
+                                      <label class="custom-control-label"></label>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <span href="#" class="btn btn-circle btn bg-greenlighted">
+                                      <i class="fa fa-file-pdf"></i>
+                                    </span>
+                                  </div>
+
+                                  <div class="flex-grow-1 d-flex align-items-start p-2 border-bottom border-secondary overflow-hidden">
+                                    <div class="w-100">
+                                      <!-- Below is attachment type field -->
+                                      <p class="d-block text-truncate mb-0"><a href="#">Experian Credit Report - Ref 1703165 - 20230222.pdf</a></p>
+                                      <!-- Associated to client/claim -->
+                                      <p class="d-block text-truncate mb-0 text-dark">1 - Motor Finance | Credit file</p>
+                                      <!-- The description expands on focus, tabindex="0" is required -->
+                                      <p class="d-block text-truncate focus-untruncate mb-0 text-dark" tabindex="0">Been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start pl-5 py-2 border-bottom border-secondary">
+                                    <div class="text-right">
+                                      <p class="d-block text-truncate mb-0 small">08:54</p>
+                                      <p class="d-block text-truncate mb-0 small">Aleksandar Bozic</p>
+                                      <span class="badge btn-secondary"><span class="small">£9.00</span> <i class="fa fa-chevron-down small"></i></span>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+
+
+
+
+                                <!-- Type: Document - Attached -->
+                                <div class="grid-row d-flex flex-row px-4">
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <div class="custom-control custom-checkbox">
+                                      <input type="checkbox" id="" name="" class="custom-control-input">
+                                      <label class="custom-control-label"></label>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <span href="#" class="btn btn-circle btn bg-greenlighted">
+                                      <i class="fa fa-paperclip"></i>
+                                    </span>
+                                  </div>
+
+                                  <div class="flex-grow-1 d-flex align-items-start p-2 border-bottom border-secondary overflow-hidden">
+                                    <div class="w-100">
+                                      <!-- Below is activity type field -->
+                                      <p class="d-block text-truncate mb-0"><a href="#">Investigating</a></p>
+                                      <p class="d-block text-truncate mb-0 text-dark">1 - Motor Finance</p>
+                                      <!-- The description expands on focus, tabindex="0" is required -->
+                                      <p class="d-block text-truncate focus-untruncate mb-0 text-dark" tabindex="0">Been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                      <!-- This example is without description -->
+                                      <!-- Bellow tooltips on ti the left only because "top" doesn't work for some reason. Please set it to top -->
+                                      <span class="badge btn-secondary max-width-12 text-truncate m-0 mr-1 small" title="Click to preview the document" data-toggle="tooltip" data-placement="left">
+                                        <i class="fa fa-file-pdf"></i> Experian Credit Report - Ref 1703165 - 20230222.pdf
+                                      </span>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start pl-5 py-2 border-bottom border-secondary">
+                                    <div class="text-right">
+                                      <p class="d-block text-truncate mb-0">08:54</p>
+                                      <p class="d-block text-truncate mb-0">Aleksandar Bozic</p>
+                                      <span class="badge btn-secondary">£9.00 <i class="fa fa-chevron-down small"></i></span>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- Type: Document - Attached -->
+                                <div class="grid-row d-flex flex-row px-4">
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <div class="custom-control custom-checkbox">
+                                      <input type="checkbox" id="" name="" class="custom-control-input">
+                                      <label class="custom-control-label"></label>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <span href="#" class="btn btn-circle btn bg-greenlighted">
+                                      <i class="fa fa-paperclip"></i>
+                                    </span>
+                                  </div>
+
+                                  <div class="flex-grow-1 d-flex align-items-start p-2 border-bottom border-secondary overflow-hidden">
+                                    <div class="w-100">
+                                      <!-- Below are both activity type / Attachment type fields -->
+                                      <p class="d-block text-truncate mb-0"><a href="#">Investigating / Credit file</a></p>
+                                      <p class="d-block text-truncate mb-0 text-dark">1 - Motor Finance</p>
+                                      <!-- The description expands on focus, tabindex="0" is required -->
+                                      <p class="d-block text-truncate focus-untruncate mb-0 text-dark" tabindex="0">Been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                      <!-- This example is without description -->
+                                      <!-- Bellow tooltips on ti the left only because "top" doesn't work for some reason. Please set it to top -->
+                                      <span class="badge btn-secondary max-width-12 text-truncate m-0 mr-1 small" title="Click to preview the document" data-toggle="tooltip" data-placement="left">
+                                        <i class="fa fa-file-pdf"></i> Experian Credit Report - Ref 1703165 - 20230222.pdf
+                                      </span>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start pl-5 py-2 border-bottom border-secondary">
+                                    <div class="text-right">
+                                      <p class="d-block text-truncate mb-0">08:54</p>
+                                      <p class="d-block text-truncate mb-0">Aleksandar Bozic</p>
+                                      <span class="badge btn-secondary">£9.00 <i class="fa fa-chevron-down small"></i></span>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- Type: Document - From library email -->
+                                <div class="grid-row d-flex flex-row px-4">
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <div class="custom-control custom-checkbox">
+                                      <input type="checkbox" id="" name="" class="custom-control-input">
+                                      <label class="custom-control-label"></label>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <span href="#" class="btn btn-circle btn bg-info">
+                                      <i class="fa fa-files"></i>
+                                    </span>
+                                  </div>
+
+                                  <div class="flex-grow-1 d-flex align-items-start p-2 border-bottom border-secondary overflow-hidden">
+                                    <div class="w-100">
+                                      <!-- Below is doc library template name -->
+                                      <p class="d-block text-truncate mb-0"><a href="#">Client first welcome</a></p>
+                                      <p class="d-block text-truncate mb-0 text-dark">Client</p>
+                                      <!-- This example is without description -->
+                                      <!-- Bellow tooltips on ti the left only because "top" doesn't work for some reason. Please set it to top -->
+                                      <span class="badge btn-secondary max-width-12 text-truncate m-0 mr-1 small" title="Click to preview the document" data-toggle="tooltip" data-placement="left">
+                                        <i class="fa fa-envelope"></i> Welcome to Car Finance Claims
+                                      </span>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start pl-5 py-2 border-bottom border-secondary">
+                                    <div class="text-right">
+                                      <p class="d-block text-truncate mb-0">08:54</p>
+                                      <p class="d-block text-truncate mb-0">Aleksandar Bozic</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- Type: Document - From library sms -->
+                                <div class="grid-row d-flex flex-row px-4">
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <div class="custom-control custom-checkbox">
+                                      <input type="checkbox" id="" name="" class="custom-control-input">
+                                      <label class="custom-control-label"></label>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start py-2 border-bottom border-secondary">
+                                    <span href="#" class="btn btn-circle btn bg-info">
+                                      <i class="fa fa-files"></i>
+                                    </span>
+                                  </div>
+
+                                  <div class="flex-grow-1 d-flex align-items-start p-2 border-bottom border-secondary overflow-hidden">
+                                    <div class="w-100">
+                                      <!-- Below is doc library template name -->
+                                      <p class="d-block text-truncate mb-0"><a href="#">Client first welcome</a></p>
+                                      <p class="d-block text-truncate mb-0 text-dark">Client</p>
+                                      <!-- This example is without description -->
+                                      <!-- Bellow tooltips on ti the left only because "top" doesn't work for some reason. Please set it to top -->
+                                      <span class="badge btn-secondary max-width-12 text-truncate m-0 mr-1 small" title="Click to preview the document" data-toggle="tooltip" data-placement="left">
+                                        <i class="fa fa-message"></i> Welcome to Car Finance Claims
+                                      </span>
+                                    </div>
+                                  </div>
+
+                                  <div class="flex-grow-0 d-flex align-items-start pl-5 py-2 border-bottom border-secondary">
+                                    <div class="text-right">
+                                      <p class="d-block text-truncate mb-0">08:54</p>
+                                      <p class="d-block text-truncate mb-0">Aleksandar Bozic</p>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loader -->
+        <div class="logi-loader collapse">
+            <div class="fixed-top row h-100 text-center text-primary">
+                <div class="col-sm-12 my-auto">
+                    <div class="spinner-border" role="status">
+                        <span class="sr-only"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-backdrop fade show"></div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <script>
+          $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+          })
+        </script>
+    </body>
+
+</html>

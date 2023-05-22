@@ -1,0 +1,145 @@
+.btn {
+	position: relative;
+
+	*[class^="icon-"],
+	*[class*=" icon-"] {
+		margin-left   : - $spacer*.5;
+		margin-right  : $spacer*.5;
+
+		vertical-align: top;
+	}
+
+	img {
+		width    : 100%;
+		height   : auto;
+
+		vertical-align: top;
+	}
+
+	&.navbar-toggler {
+		line-height: $input-btn-line-height;
+	}
+
+	&.btn-xlg {
+		line-height: $input-btn-line-height*2;
+	}
+
+	&.btn-white {
+		color: $black !important;
+		background-color: $white !important;
+
+		&:hover {
+			color: $black !important;
+			background-color: $gray-200 !important;
+		}
+	}
+}
+
+.btn-menu {
+	&.navbar-toggler[aria-expanded="true"] {
+		.icon-more-options {
+			&:before {
+				content: "\e901";
+			}
+		}
+	}
+}
+
+*[class^="btn-outline-"],
+*[class*=" btn-outline-"],
+.btn-outline {
+	border-width: 1px;
+
+	*[class^="icon-"],
+	*[class*=" icon-"] {
+		color: $body-color;
+	}
+}
+
+*[class^="btn-circle-"],
+*[class*=" btn-circle-"],
+.btn-circle {
+	padding: 0;
+
+	width  : get-size($font-size-base, $input-btn-line-height);
+	min-width  : get-size($font-size-base, $input-btn-line-height);
+
+	&.btn-sm {
+		width: get-size($font-size-base, $input-btn-line-height-sm);
+		min-width: get-size($font-size-base, $input-btn-line-height-sm);
+	}
+
+	&.btn-lg {
+		width: get-size($font-size-base, $input-btn-line-height-lg);
+		min-width: get-size($font-size-base, $input-btn-line-height-lg);
+	}
+
+	&.btn-xlg {
+		width: get-size($font-size-base, ($input-btn-line-height*2));
+		min-width: get-size($font-size-base, ($input-btn-line-height*2));
+
+		border-radius: get-size($font-size-base, ($input-btn-line-height*2)) !important;
+	}
+
+	*[class^="icon-"],
+	*[class*=" icon-"] {
+		margin        : 0 !important;
+
+		vertical-align: top;
+	}
+}
+
+.btn-filter {
+	text-align   : left;
+
+	position     : relative;
+	padding      : 0 $spacer;
+	margin-bottom: $spacer*.25;
+
+	@include media-breakpoint-down(lg) {
+		max-width: $spacer*7.5;
+	}
+
+	> * {
+		display       : inline-block;
+		vertical-align: middle !important;
+	}
+
+	.value {
+		text-align   : left;
+		text-overflow: ellipsis;
+		white-space  : nowrap;
+
+		width        : 80%;
+		overflow     : hidden;
+
+		@include media-breakpoint-down(lg) {
+			font-size: $font-size-sm;
+		}
+	}
+
+	*[class^="icon-"],
+	*[class*=" icon-"] {
+		font-size : $font-size-sm;
+		text-align: center;
+
+		width     : 20%;
+		margin    : 0;
+	}
+}
+
+.btn-sort-order {
+	&[data-sort="desc"] {
+		*[class^="icon-"],
+		*[class*=" icon-"] {
+			&:before {
+				content: "\e90e";
+			}
+		}
+	}
+}
+
+.collapsed > .when-open,
+.not-collapsed > .when-closed {
+	display: none;
+}

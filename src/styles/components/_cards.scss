@@ -1,0 +1,26 @@
+.card {
+    .btn-sm + .card-body {
+        padding: $card-spacer-y*.5 $card-spacer-x*.5;
+    }
+
+    .sub-cards {
+        padding-top: $spacer;
+    }
+
+    &.card-clickable {
+      cursor: pointer;
+
+      &:hover {
+        &.border-secondary {
+          border-color: $gray-400 !important;
+        }
+
+        &.bg-white {
+          background-color: $gray-100 !important;
+        }
+        &.bg-light {
+          background-color: $gray-100 !important;
+        }
+      }
+    }
+}

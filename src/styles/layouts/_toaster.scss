@@ -1,0 +1,104 @@
+// Toaster
+
+.b-toast.b-toast-solid {
+	.toast {
+		border    : none;
+		box-shadow: none;
+
+		.toast-header {
+			padding   : $spacer $spacer $spacer*.5;
+
+			background: none !important;
+			border    : none;
+
+			strong {
+				font-size    : $h4-font-size;
+				font-weight  : $headings-font-weight !important;
+				line-height  : $headings-line-height;
+
+				margin-bottom: 0;
+			}
+
+			.close {
+				text-shadow: none;
+				opacity    : 1;
+			}
+		}
+
+		.toast-body {
+			padding: 0 $spacer $spacer;
+		}
+	}
+
+	&.b-toast-primary {
+		.toast {
+			color           : $black;
+			background-color: map-get($logi-colors, blue-1);
+
+			.close,
+			.toast-header {
+				color: $black;
+			}
+		}
+	}
+
+	&.b-toast-secondary {
+		.toast {
+			color           : $black;
+			background-color: $gray-100;
+
+			.close,
+			.toast-header {
+				color: $black;
+			}
+		}
+	}
+
+	&.b-toast-danger {
+		.toast {
+			color           : $black;
+			background-color: map-get($logi-colors, red-1);
+
+			.close,
+			.toast-header {
+				color: $black;
+			}
+		}
+	}
+
+	&.b-toast-warning {
+		.toast {
+			color           : $black;
+			background-color: map-get($logi-colors, yellow-1);
+
+			.close,
+			.toast-header {
+				color: $black;
+			}
+		}
+	}
+
+	&.b-toast-success {
+		.toast {
+			color           : $black;
+			background-color: map-get($logi-colors, green-1);
+
+			.close,
+			.toast-header {
+				color: $black;
+			}
+		}
+	}
+
+	&.b-toast-info {
+		.toast {
+			color           : $black;
+			background-color: map-get($logi-colors, yellow-1);
+
+			.close,
+			.toast-header {
+				color: $black;
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+html {
+	height: 100%;
+
+	@include media-breakpoint-only(xs) {
+		font-size: get-base-font-size(xs);
+	}
+	@include media-breakpoint-only(sm) {
+		font-size: get-base-font-size(sm);
+	}
+	@include media-breakpoint-only(md) {
+		font-size: get-base-font-size(md);
+	}
+	@include media-breakpoint-only(lg) {
+		font-size: get-base-font-size(lg);
+	}
+	@include media-breakpoint-up(xl) {
+		font-size: get-base-font-size(xl);
+	}
+}
+
+body {
+	height: 100%;
+
+	div#app {
+		height: 100%;
+		max-height: 100%;
+	}
+}
+
+*::-webkit-scrollbar {
+  width: $spacer*.5;
+	height: $spacer*.5;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,.4);
+  border-radius: $spacer*.5;
+}

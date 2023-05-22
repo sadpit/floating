@@ -1,0 +1,100 @@
+// Grid global classes
+
+.grid {
+	.row {
+		.row-actions {
+			visibility: hidden;
+
+			@include media-breakpoint-down(md) {
+				visibility: visible;
+			}
+		}
+
+		&:hover {
+			.row-actions {
+				visibility: visible;
+			}
+		}
+
+		&.row-hover {
+			&:hover {
+				box-shadow: $box-shadow-sm;
+			}
+		}
+	}
+}
+
+// Responsive grids
+
+@include media-breakpoint-up(lg) {
+	.grid {
+		.container-wide {
+			.col-1 {
+				&:first-child {
+					max-width: $spacer*3;
+				}
+			}
+		}
+
+		.grid-content {
+			&.container-wide {
+				.row {
+					&:hover {
+						box-shadow: $box-shadow-sm;
+					}
+
+					h2,
+					h3,
+					h4,
+					h5,
+					h6,
+					p {
+						font-size    : $font-size-base;
+						white-space  : nowrap;
+						text-overflow: ellipsis;
+
+						line-height  : $spacer*2;
+						height       : $spacer*2;
+						overflow     : hidden;
+
+						margin       : 0;
+					}
+
+					.custom-checkbox {
+						top: $spacer*.25;
+					}
+
+					> div {
+						&:not(.no-overflow) {
+							white-space  : nowrap;
+							overflow     : hidden;
+							text-overflow: ellipsis;
+						}
+
+						&:last-child {
+							p {
+								float: right;
+							}
+						}
+					}
+
+					.row {
+						padding: 0;
+						margin : 0;
+
+						border : none;
+
+						> *[class^="col-"],
+						 > *[class*=" col-"] {
+							padding: 0 $spacer 0 0;
+						}
+
+						&:hover {
+							box-shadow: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}

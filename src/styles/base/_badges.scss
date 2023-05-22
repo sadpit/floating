@@ -1,0 +1,29 @@
+.badge {
+	white-space  : normal;
+
+	max-width    : 100%;
+
+	cursor: pointer;
+
+	&.text-truncate {
+		white-space: nowrap;
+	}
+}
+
+.badge-counter {
+	position     : absolute !important;
+	top          : - $spacer*.5;
+	right        : - $spacer*.5;
+
+	height       : ($spacer*.5)*3;
+	line-height  : ($spacer*.5)*3;
+	width        : ($spacer*.5)*3;
+	max-width    : ($spacer*.5)*3;
+	min-width    : ($spacer*.5)*3;
+	padding      : 0 $spacer*.25;
+	overflow     : hidden;
+
+	text-align   : left;
+	text-overflow: ellipsis;
+	white-space  : nowrap;
+}

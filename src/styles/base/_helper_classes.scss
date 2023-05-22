@@ -1,0 +1,65 @@
+// Background color
+
+.bg-highlighted {
+	background-color: $bg-highlighted;
+}
+
+.bg-greenlighted {
+	background-color: $bg-greenlighted;
+}
+
+// Border widths
+
+.border-md-3 {
+	@include media-breakpoint-up(md) {
+		border: 1px solid;
+	}
+}
+
+// Container wide
+
+.container-wide {
+	@include media-breakpoint-up(lg) {
+		width    : auto;
+		max-width: 95%;
+	}
+}
+
+// Positioning top, right, bottom, left
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+	@include media-breakpoint-up($breakpoint) {
+
+		@each $prop in (top: t, right: r, bottom: b, left: l) {
+			@each $size, $length in $spacers {
+				.t-#{$size},
+				.y-#{$size} {
+					top: $length !important;
+				}
+
+				.r-#{$size},
+				.x-#{$size} {
+					right: $length !important;
+				}
+
+				.b-#{$size},
+				.y-#{$size} {
+					bottom: $length !important;
+				}
+
+				.l-#{$size},
+				.x-#{$size} {
+					left: $length !important;
+				}
+			}
+		}
+	}
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
