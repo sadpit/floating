@@ -39,6 +39,14 @@
       "oAP" : "\/public\/01-home.html",
       "oF" : 0
     },
+    "\/public\/02-category.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/02-category.html",
+      "oF" : 0
+    },
     "\/public\/assets\/img\/drustvo-ljubiteljev-gradu-sneznik.png" : {
       "ft" : 32768,
       "iS" : 9636,
@@ -534,46 +542,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/public\/css\/css\/css\/main.css.map",
-      "oF" : 0
-    },
-    "\/public\/logiclaimx_agent_portal_000_login.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public\/logiclaimx_agent_portal_000_login.html",
-      "oF" : 0
-    },
-    "\/public\/logiclaimx_agent_portal_000_reset_pass_sent.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public\/logiclaimx_agent_portal_000_reset_pass_sent.html",
-      "oF" : 0
-    },
-    "\/public\/logiclaimx_agent_portal_000_reset_pass.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public\/logiclaimx_agent_portal_000_reset_pass.html",
-      "oF" : 0
-    },
-    "\/public\/logiclaimx_agent_portal_001_clients.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public\/logiclaimx_agent_portal_001_clients.html",
-      "oF" : 0
-    },
-    "\/public\/logiclaimx_agent_portal_002_client_details.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/public\/logiclaimx_agent_portal_002_client_details.html",
       "oF" : 0
     },
     "\/README.md" : {
@@ -1436,7 +1404,7 @@
       "sct" : 0
     },
     "\/src\/styles\/themes\/floating\/main.scss" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "co" : 1,
       "dP" : 10,
