@@ -1205,14 +1205,15 @@ footer {
   }
 }
 
-.googlemap {
+.googlemap, .iframe-wrap {
   position: relative;
   padding-bottom: 75%;
   height: 0;
   overflow: hidden;
 }
 
-.googlemap iframe {
+.googlemap iframe,
+.iframe-wrap iframe {
   position: absolute;
   top: 0;
   left: 0;
