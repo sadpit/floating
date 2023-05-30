@@ -75,6 +75,15 @@ h3, .h3 {
   background-color: map-get($logi-colors, blue-4) !important;
 }
 
+.bg-transparent-black {
+  background-color: rgba(0,0,0,.5);
+}
+
+.bg-gradient-black {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg,rgba(0,0,0,.6) 0,rgba(0,0,0,.2) 35%,transparent 100%);
+}
+
 .border-input {
   border-color: $input-border-color !important;
 }
@@ -133,6 +142,10 @@ h3, .h3 {
 
 .max-vh-75 {
   max-height: 75vh !important;
+}
+
+.vh-75 {
+  height: 75vh !important;
 }
 
 .max-vh-100 {
@@ -1025,6 +1038,8 @@ $max-height: 10;
 
   background-repeat: repeat-x;
   background-size: auto 100%;
+
+  z-index: 1;
 }
 
 .val-secondary {
@@ -1062,10 +1077,16 @@ $max-height: 10;
   background-size: cover;
 }
 
+.floating-hero {
+  width: 100%;
+
+  background-position: center;
+  background-size: cover;
+}
+
 .text-shadow {
   text-shadow: 3px 3px 6px black;
 }
-
 
 header {
   .nav-item {
@@ -1182,4 +1203,19 @@ footer {
       }
     }
   }
+}
+
+.googlemap {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.googlemap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }

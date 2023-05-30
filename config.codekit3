@@ -47,6 +47,64 @@
       "oAP" : "\/public\/02-category.html",
       "oF" : 0
     },
+    "\/public\/03-category-masterclass.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/03-category-masterclass.html",
+      "oF" : 0
+    },
+    "\/public\/04-details-nastopajoci.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/04-details-nastopajoci.html",
+      "oF" : 0
+    },
+    "\/public\/05-details-masterclass.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/05-details-masterclass.html",
+      "oF" : 0
+    },
+    "\/public\/06-info.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/06-info.html",
+      "oF" : 0
+    },
+    "\/public\/assets\/img\/04.scale-100.jpg" : {
+      "ft" : 16384,
+      "iS" : 134419,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/img\/04.scale-100.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/public\/assets\/img\/Alicia-Ocadiz_md.jpg" : {
+      "ft" : 16384,
+      "iS" : 187269,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/assets\/img\/Alicia-Ocadiz_md.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/public\/assets\/img\/drustvo-ljubiteljev-gradu-sneznik.png" : {
       "ft" : 32768,
       "iS" : 9636,
