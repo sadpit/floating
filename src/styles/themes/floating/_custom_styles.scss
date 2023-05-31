@@ -1220,3 +1220,16 @@ footer {
   width: 100% !important;
   height: 100% !important;
 }
+
+article {
+  h2, h3 {
+    margin-top: $spacer !important;
+    margin-bottom: $spacer !important;
+  }
+
+  img {
+    width: 100% !important;
+    margin-top: $spacer !important;
+    margin-bottom: $spacer !important;
+  }
+}
