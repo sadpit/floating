@@ -7,7 +7,7 @@
       "uuidString" : "3CB0F772-48BA-48AD-90F4-21AFD48B838B"
     }
   ],
-  "creatorBuild" : "34484",
+  "creatorBuild" : "34434",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -17,36 +17,23 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
-    "\/node_modules" : {
-      "ft" : 65536,
-      "oA" : 2,
-      "oAP" : "\/node_modules",
-      "oF" : 0
-    },
-    "\/package.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/public\/01-home.html" : {
+    "\/static\/public\/01-home.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/01-home.html",
+      "oAP" : "\/static\/public\/01-home.html",
       "oF" : 0
     },
-    "\/public\/02-category.html" : {
+    "\/static\/public\/02-category.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/02-category.html",
+      "oAP" : "\/static\/public\/02-category.html",
       "oF" : 0
     },
+<<<<<<< HEAD
     "\/public\/03-category-masterclass.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -106,10 +93,13 @@
       "rq" : 75
     },
     "\/public\/assets\/img\/drustvo-ljubiteljev-gradu-sneznik.png" : {
+=======
+    "\/static\/public\/assets\/img\/drustvo-ljubiteljev-gradu-sneznik.png" : {
+>>>>>>> 253280c (zemljevid added)
       "ft" : 32768,
       "iS" : 9636,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/drustvo-ljubiteljev-gradu-sneznik.png",
+      "oAP" : "\/static\/public\/assets\/img\/drustvo-ljubiteljev-gradu-sneznik.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -118,12 +108,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/floating-castle-hero.jpg" : {
+    "\/static\/public\/assets\/img\/floating-castle-hero.jpg" : {
       "ft" : 16384,
       "iS" : 401651,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/floating-castle-hero.jpg",
+      "oAP" : "\/static\/public\/assets\/img\/floating-castle-hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -131,31 +121,31 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/floating-castle-logo-bw.svg" : {
+    "\/static\/public\/assets\/img\/floating-castle-logo-bw.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/public\/assets\/img\/floating-castle-logo-bw.svg",
+      "oAP" : "\/static\/public\/assets\/img\/floating-castle-logo-bw.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/public\/assets\/img\/floating-castle-logo.svg" : {
+    "\/static\/public\/assets\/img\/floating-castle-logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/public\/assets\/img\/floating-castle-logo.svg",
+      "oAP" : "\/static\/public\/assets\/img\/floating-castle-logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/public\/assets\/img\/footer-logo-1.png" : {
+    "\/static\/public\/assets\/img\/footer-logo-1.png" : {
       "ft" : 32768,
       "iS" : 59952,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/footer-logo-1.png",
+      "oAP" : "\/static\/public\/assets\/img\/footer-logo-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -164,11 +154,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/footer-logo-2.png" : {
+    "\/static\/public\/assets\/img\/footer-logo-2.png" : {
       "ft" : 32768,
       "iS" : 23400,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/footer-logo-2.png",
+      "oAP" : "\/static\/public\/assets\/img\/footer-logo-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -177,11 +167,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/footer-logo-3.png" : {
+    "\/static\/public\/assets\/img\/footer-logo-3.png" : {
       "ft" : 32768,
       "iS" : 21962,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/footer-logo-3.png",
+      "oAP" : "\/static\/public\/assets\/img\/footer-logo-3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -190,11 +180,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/footer-logo-4.png" : {
+    "\/static\/public\/assets\/img\/footer-logo-4.png" : {
       "ft" : 32768,
       "iS" : 7413,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/footer-logo-4.png",
+      "oAP" : "\/static\/public\/assets\/img\/footer-logo-4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -203,11 +193,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/footer-logo-5.png" : {
+    "\/static\/public\/assets\/img\/footer-logo-5.png" : {
       "ft" : 32768,
       "iS" : 61085,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/footer-logo-5.png",
+      "oAP" : "\/static\/public\/assets\/img\/footer-logo-5.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -216,11 +206,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/footer-logo-6.png" : {
+    "\/static\/public\/assets\/img\/footer-logo-6.png" : {
       "ft" : 32768,
       "iS" : 36360,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/footer-logo-6.png",
+      "oAP" : "\/static\/public\/assets\/img\/footer-logo-6.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -229,11 +219,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/footer-logo-7.png" : {
+    "\/static\/public\/assets\/img\/footer-logo-7.png" : {
       "ft" : 32768,
       "iS" : 33413,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/footer-logo-7.png",
+      "oAP" : "\/static\/public\/assets\/img\/footer-logo-7.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -242,11 +232,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/footer-logo-8.png" : {
+    "\/static\/public\/assets\/img\/footer-logo-8.png" : {
       "ft" : 32768,
       "iS" : 21964,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/footer-logo-8.png",
+      "oAP" : "\/static\/public\/assets\/img\/footer-logo-8.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -255,11 +245,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/footer-logo-9.png" : {
+    "\/static\/public\/assets\/img\/footer-logo-9.png" : {
       "ft" : 32768,
       "iS" : 25972,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/footer-logo-9.png",
+      "oAP" : "\/static\/public\/assets\/img\/footer-logo-9.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -268,11 +258,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/footer-logo-10.png" : {
+    "\/static\/public\/assets\/img\/footer-logo-10.png" : {
       "ft" : 32768,
       "iS" : 22309,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/footer-logo-10.png",
+      "oAP" : "\/static\/public\/assets\/img\/footer-logo-10.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -281,11 +271,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/footer-logo-11.png" : {
+    "\/static\/public\/assets\/img\/footer-logo-11.png" : {
       "ft" : 32768,
       "iS" : 4946,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/footer-logo-11.png",
+      "oAP" : "\/static\/public\/assets\/img\/footer-logo-11.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -294,11 +284,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/footer-podporniki.png" : {
+    "\/static\/public\/assets\/img\/footer-podporniki.png" : {
       "ft" : 32768,
       "iS" : 324344,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/footer-podporniki.png",
+      "oAP" : "\/static\/public\/assets\/img\/footer-podporniki.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -307,12 +297,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/nastopajoci-sample-img.jpg" : {
+    "\/static\/public\/assets\/img\/nastopajoci-sample-img.jpg" : {
       "ft" : 16384,
       "iS" : 82995,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/nastopajoci-sample-img.jpg",
+      "oAP" : "\/static\/public\/assets\/img\/nastopajoci-sample-img.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -320,12 +310,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/nastopajoci-sample-img2.jpg" : {
+    "\/static\/public\/assets\/img\/nastopajoci-sample-img2.jpg" : {
       "ft" : 16384,
       "iS" : 281386,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/img\/nastopajoci-sample-img2.jpg",
+      "oAP" : "\/static\/public\/assets\/img\/nastopajoci-sample-img2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -333,71 +323,71 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/img\/val-double-white.svg" : {
+    "\/static\/public\/assets\/img\/val-double-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/public\/assets\/img\/val-double-white.svg",
+      "oAP" : "\/static\/public\/assets\/img\/val-double-white.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/public\/assets\/img\/val-img-secondary.svg" : {
+    "\/static\/public\/assets\/img\/val-img-secondary.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/public\/assets\/img\/val-img-secondary.svg",
+      "oAP" : "\/static\/public\/assets\/img\/val-img-secondary.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/public\/assets\/img\/val-img-white.svg" : {
+    "\/static\/public\/assets\/img\/val-img-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/public\/assets\/img\/val-img-white.svg",
+      "oAP" : "\/static\/public\/assets\/img\/val-img-white.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/public\/assets\/img\/val-secondary.svg" : {
+    "\/static\/public\/assets\/img\/val-secondary.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/public\/assets\/img\/val-secondary.svg",
+      "oAP" : "\/static\/public\/assets\/img\/val-secondary.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/public\/assets\/img\/val-sub-white.svg" : {
+    "\/static\/public\/assets\/img\/val-sub-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/public\/assets\/img\/val-sub-white.svg",
+      "oAP" : "\/static\/public\/assets\/img\/val-sub-white.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/public\/assets\/img\/val-white.svg" : {
+    "\/static\/public\/assets\/img\/val-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/public\/assets\/img\/val-white.svg",
+      "oAP" : "\/static\/public\/assets\/img\/val-white.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/public\/assets\/logo.png" : {
+    "\/static\/public\/assets\/logo.png" : {
       "ft" : 32768,
       "iS" : 5097,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/logo.png",
+      "oAP" : "\/static\/public\/assets\/logo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -406,183 +396,183 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/public\/assets\/webfonts\/custom-icons.ttf" : {
+    "\/static\/public\/assets\/webfonts\/custom-icons.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/custom-icons.ttf",
+      "oAP" : "\/static\/public\/assets\/webfonts\/custom-icons.ttf",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/custom-icons.woff2" : {
+    "\/static\/public\/assets\/webfonts\/custom-icons.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/custom-icons.woff2",
+      "oAP" : "\/static\/public\/assets\/webfonts\/custom-icons.woff2",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-brands-400.ttf" : {
+    "\/static\/public\/assets\/webfonts\/fa-brands-400.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-brands-400.ttf",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-brands-400.ttf",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-brands-400.woff2" : {
+    "\/static\/public\/assets\/webfonts\/fa-brands-400.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-brands-400.woff2",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-brands-400.woff2",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-duotone-900.ttf" : {
+    "\/static\/public\/assets\/webfonts\/fa-duotone-900.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-duotone-900.ttf",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-duotone-900.ttf",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-duotone-900.woff2" : {
+    "\/static\/public\/assets\/webfonts\/fa-duotone-900.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-duotone-900.woff2",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-duotone-900.woff2",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-light-300.ttf" : {
+    "\/static\/public\/assets\/webfonts\/fa-light-300.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-light-300.ttf",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-light-300.ttf",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-light-300.woff2" : {
+    "\/static\/public\/assets\/webfonts\/fa-light-300.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-light-300.woff2",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-light-300.woff2",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-regular-400.ttf" : {
+    "\/static\/public\/assets\/webfonts\/fa-regular-400.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-regular-400.ttf",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-regular-400.ttf",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-regular-400.woff2" : {
+    "\/static\/public\/assets\/webfonts\/fa-regular-400.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-regular-400.woff2",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-regular-400.woff2",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-sharp-light-300.ttf" : {
+    "\/static\/public\/assets\/webfonts\/fa-sharp-light-300.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-sharp-light-300.ttf",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-sharp-light-300.ttf",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-sharp-light-300.woff2" : {
+    "\/static\/public\/assets\/webfonts\/fa-sharp-light-300.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-sharp-light-300.woff2",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-sharp-light-300.woff2",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-sharp-regular-400.ttf" : {
+    "\/static\/public\/assets\/webfonts\/fa-sharp-regular-400.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-sharp-regular-400.ttf",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-sharp-regular-400.ttf",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-sharp-regular-400.woff2" : {
+    "\/static\/public\/assets\/webfonts\/fa-sharp-regular-400.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-sharp-regular-400.woff2",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-sharp-regular-400.woff2",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-sharp-solid-900.ttf" : {
+    "\/static\/public\/assets\/webfonts\/fa-sharp-solid-900.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-sharp-solid-900.ttf",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-sharp-solid-900.ttf",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-sharp-solid-900.woff2" : {
+    "\/static\/public\/assets\/webfonts\/fa-sharp-solid-900.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-sharp-solid-900.woff2",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-sharp-solid-900.woff2",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-solid-900.ttf" : {
+    "\/static\/public\/assets\/webfonts\/fa-solid-900.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-solid-900.ttf",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-solid-900.ttf",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-solid-900.woff2" : {
+    "\/static\/public\/assets\/webfonts\/fa-solid-900.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-solid-900.woff2",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-solid-900.woff2",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-thin-100.ttf" : {
+    "\/static\/public\/assets\/webfonts\/fa-thin-100.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-thin-100.ttf",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-thin-100.ttf",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-thin-100.woff2" : {
+    "\/static\/public\/assets\/webfonts\/fa-thin-100.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-thin-100.woff2",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-thin-100.woff2",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-v4compatibility.ttf" : {
+    "\/static\/public\/assets\/webfonts\/fa-v4compatibility.ttf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-v4compatibility.ttf",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-v4compatibility.ttf",
       "oF" : 0
     },
-    "\/public\/assets\/webfonts\/fa-v4compatibility.woff2" : {
+    "\/static\/public\/assets\/webfonts\/fa-v4compatibility.woff2" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/assets\/webfonts\/fa-v4compatibility.woff2",
+      "oAP" : "\/static\/public\/assets\/webfonts\/fa-v4compatibility.woff2",
       "oF" : 0
     },
-    "\/public\/css\/css\/css\/main.css" : {
+    "\/static\/public\/css\/css\/css\/main.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -590,19 +580,19 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/css\/css\/css\/main-min.css",
+      "oAP" : "\/static\/public\/css\/css\/css\/main-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/public\/css\/css\/css\/main.css.map" : {
+    "\/static\/public\/css\/css\/css\/main.css.map" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/css\/css\/css\/main.css.map",
+      "oAP" : "\/static\/public\/css\/css\/css\/main.css.map",
       "oF" : 0
     },
-    "\/README.md" : {
+    "\/static\/README.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -612,7 +602,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/README.html",
+      "oAP" : "\/static\/README.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -621,7 +611,7 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/src\/styles\/base\/_badges.scss" : {
+    "\/static\/src\/styles\/base\/_badges.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -630,13 +620,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/base\/_badges.css",
+      "oAP" : "\/static\/src\/styles\/base\/_badges.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/base\/_buttons.scss" : {
+    "\/static\/src\/styles\/base\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -645,13 +635,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/base\/_buttons.css",
+      "oAP" : "\/static\/src\/styles\/base\/_buttons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/base\/_forms.scss" : {
+    "\/static\/src\/styles\/base\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -660,13 +650,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/base\/_forms.css",
+      "oAP" : "\/static\/src\/styles\/base\/_forms.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/base\/_general.scss" : {
+    "\/static\/src\/styles\/base\/_general.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -675,13 +665,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/base\/_general.css",
+      "oAP" : "\/static\/src\/styles\/base\/_general.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/base\/_helper_classes.scss" : {
+    "\/static\/src\/styles\/base\/_helper_classes.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -690,13 +680,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/base\/_helper_classes.css",
+      "oAP" : "\/static\/src\/styles\/base\/_helper_classes.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/base\/_icons.scss" : {
+    "\/static\/src\/styles\/base\/_icons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -705,13 +695,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/base\/_icons.css",
+      "oAP" : "\/static\/src\/styles\/base\/_icons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/base\/_mixins.scss" : {
+    "\/static\/src\/styles\/base\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -720,13 +710,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/base\/_mixins.css",
+      "oAP" : "\/static\/src\/styles\/base\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/base\/_typography.scss" : {
+    "\/static\/src\/styles\/base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -735,13 +725,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/base\/_typography.css",
+      "oAP" : "\/static\/src\/styles\/base\/_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/components\/_cards.scss" : {
+    "\/static\/src\/styles\/components\/_cards.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -750,13 +740,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/components\/_cards.css",
+      "oAP" : "\/static\/src\/styles\/components\/_cards.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/components\/_dropdowns.scss" : {
+    "\/static\/src\/styles\/components\/_dropdowns.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -765,13 +755,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/components\/_dropdowns.css",
+      "oAP" : "\/static\/src\/styles\/components\/_dropdowns.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/components\/_nav.scss" : {
+    "\/static\/src\/styles\/components\/_nav.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -780,13 +770,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/components\/_nav.css",
+      "oAP" : "\/static\/src\/styles\/components\/_nav.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/components\/_pagination.scss" : {
+    "\/static\/src\/styles\/components\/_pagination.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -795,13 +785,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/components\/_pagination.css",
+      "oAP" : "\/static\/src\/styles\/components\/_pagination.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/components\/_pdfviewer.scss" : {
+    "\/static\/src\/styles\/components\/_pdfviewer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -810,13 +800,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/components\/_pdfviewer.css",
+      "oAP" : "\/static\/src\/styles\/components\/_pdfviewer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/components\/_spinners.scss" : {
+    "\/static\/src\/styles\/components\/_spinners.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -825,13 +815,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/components\/_spinners.css",
+      "oAP" : "\/static\/src\/styles\/components\/_spinners.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/components\/_template_editor.scss" : {
+    "\/static\/src\/styles\/components\/_template_editor.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -840,13 +830,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/components\/_template_editor.css",
+      "oAP" : "\/static\/src\/styles\/components\/_template_editor.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/components\/_tree.scss" : {
+    "\/static\/src\/styles\/components\/_tree.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -855,13 +845,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/components\/_tree.css",
+      "oAP" : "\/static\/src\/styles\/components\/_tree.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/components\/_vue_dropzone.scss" : {
+    "\/static\/src\/styles\/components\/_vue_dropzone.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -870,13 +860,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/components\/_vue_dropzone.css",
+      "oAP" : "\/static\/src\/styles\/components\/_vue_dropzone.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_animated.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_animated.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -885,13 +875,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_animated.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_animated.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_bordered-pulled.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_bordered-pulled.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -900,13 +890,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_bordered-pulled.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_bordered-pulled.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_core.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_core.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -915,13 +905,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_core.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_core.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_duotone-icons.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_duotone-icons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -930,13 +920,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_duotone-icons.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_duotone-icons.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_fixed-width.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_fixed-width.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -945,13 +935,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_fixed-width.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_fixed-width.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_functions.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_functions.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -960,13 +950,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_functions.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_functions.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_icons.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_icons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -975,13 +965,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_icons.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_icons.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_list.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_list.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -990,13 +980,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_list.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_list.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_mixins.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1005,13 +995,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_mixins.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_mixins.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_rotated-flipped.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_rotated-flipped.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1020,13 +1010,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_rotated-flipped.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_rotated-flipped.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_screen-reader.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_screen-reader.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1035,13 +1025,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_screen-reader.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_screen-reader.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_shims.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_shims.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1050,13 +1040,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_shims.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_shims.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_sizing.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_sizing.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1065,13 +1055,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_sizing.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_sizing.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_stacked.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_stacked.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1080,13 +1070,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_stacked.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_stacked.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/_variables.scss" : {
+    "\/static\/src\/styles\/fontawesome\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1095,13 +1085,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/_variables.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/_variables.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/brands.scss" : {
+    "\/static\/src\/styles\/fontawesome\/brands.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1110,13 +1100,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/brands.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/brands.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/custom-icons.scss" : {
+    "\/static\/src\/styles\/fontawesome\/custom-icons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1125,13 +1115,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/custom-icons.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/custom-icons.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/duotone.scss" : {
+    "\/static\/src\/styles\/fontawesome\/duotone.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1140,13 +1130,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/duotone.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/duotone.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/fontawesome.scss" : {
+    "\/static\/src\/styles\/fontawesome\/fontawesome.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1155,13 +1145,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/fontawesome.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/fontawesome.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/light.scss" : {
+    "\/static\/src\/styles\/fontawesome\/light.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1170,13 +1160,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/light.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/light.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/regular.scss" : {
+    "\/static\/src\/styles\/fontawesome\/regular.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1185,13 +1175,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/regular.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/regular.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/sharp-light.scss" : {
+    "\/static\/src\/styles\/fontawesome\/sharp-light.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1200,13 +1190,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/sharp-light.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/sharp-light.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/sharp-regular.scss" : {
+    "\/static\/src\/styles\/fontawesome\/sharp-regular.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1215,13 +1205,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/sharp-regular.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/sharp-regular.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/sharp-solid.scss" : {
+    "\/static\/src\/styles\/fontawesome\/sharp-solid.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1230,13 +1220,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/sharp-solid.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/sharp-solid.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/solid.scss" : {
+    "\/static\/src\/styles\/fontawesome\/solid.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1245,13 +1235,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/solid.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/solid.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/thin.scss" : {
+    "\/static\/src\/styles\/fontawesome\/thin.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1260,13 +1250,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/thin.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/thin.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/fontawesome\/v4-shims.scss" : {
+    "\/static\/src\/styles\/fontawesome\/v4-shims.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1275,13 +1265,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/fontawesome\/v4-shims.css",
+      "oAP" : "\/static\/src\/styles\/fontawesome\/v4-shims.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/layouts\/_accordion.scss" : {
+    "\/static\/src\/styles\/layouts\/_accordion.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1290,13 +1280,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/layouts\/_accordion.css",
+      "oAP" : "\/static\/src\/styles\/layouts\/_accordion.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/layouts\/_articles.scss" : {
+    "\/static\/src\/styles\/layouts\/_articles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1305,13 +1295,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/layouts\/_articles.css",
+      "oAP" : "\/static\/src\/styles\/layouts\/_articles.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/layouts\/_grids.scss" : {
+    "\/static\/src\/styles\/layouts\/_grids.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1320,13 +1310,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/layouts\/_grids.css",
+      "oAP" : "\/static\/src\/styles\/layouts\/_grids.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/layouts\/_lists.scss" : {
+    "\/static\/src\/styles\/layouts\/_lists.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1335,13 +1325,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/layouts\/_lists.css",
+      "oAP" : "\/static\/src\/styles\/layouts\/_lists.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/layouts\/_modals.scss" : {
+    "\/static\/src\/styles\/layouts\/_modals.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1350,13 +1340,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/layouts\/_modals.css",
+      "oAP" : "\/static\/src\/styles\/layouts\/_modals.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/layouts\/_page_head.scss" : {
+    "\/static\/src\/styles\/layouts\/_page_head.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1365,13 +1355,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/layouts\/_page_head.css",
+      "oAP" : "\/static\/src\/styles\/layouts\/_page_head.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/layouts\/_questionnaire.scss" : {
+    "\/static\/src\/styles\/layouts\/_questionnaire.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1380,13 +1370,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/layouts\/_questionnaire.css",
+      "oAP" : "\/static\/src\/styles\/layouts\/_questionnaire.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/layouts\/_sticky.scss" : {
+    "\/static\/src\/styles\/layouts\/_sticky.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1395,13 +1385,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/layouts\/_sticky.css",
+      "oAP" : "\/static\/src\/styles\/layouts\/_sticky.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/layouts\/_toaster.scss" : {
+    "\/static\/src\/styles\/layouts\/_toaster.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1410,13 +1400,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/layouts\/_toaster.css",
+      "oAP" : "\/static\/src\/styles\/layouts\/_toaster.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/themes\/floating\/_colors.scss" : {
+    "\/static\/src\/styles\/themes\/floating\/_colors.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1425,13 +1415,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/themes\/floating\/_colors.css",
+      "oAP" : "\/static\/src\/styles\/themes\/floating\/_colors.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/themes\/floating\/_custom_styles.scss" : {
+    "\/static\/src\/styles\/themes\/floating\/_custom_styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1440,13 +1430,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/themes\/floating\/_custom_styles.css",
+      "oAP" : "\/static\/src\/styles\/themes\/floating\/_custom_styles.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/themes\/floating\/_variables.scss" : {
+    "\/static\/src\/styles\/themes\/floating\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1455,13 +1445,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/styles\/themes\/floating\/_variables.css",
+      "oAP" : "\/static\/src\/styles\/themes\/floating\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/themes\/floating\/main.scss" : {
+    "\/static\/src\/styles\/themes\/floating\/main.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 1,
@@ -1485,7 +1475,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 696851800.54686296,
-    "displayValue" : "Floating",
+    "displayValue" : "floating",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_green",
     "iconImageWasSetByUser" : 0
@@ -2004,10 +1994,6 @@
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
-      "logical-assignment-operators" : {
-        "active" : 0,
-        "optionString" : "'always',  {'enforceForIfStatements': false}"
-      },
       "max-classes-per-file" : {
         "active" : 0,
         "optionString" : "{'ignoreExpressions': false, 'max': 1}"
@@ -2168,9 +2154,6 @@
       "no-empty-pattern" : {
         "active" : 1
       },
-      "no-empty-static-block" : {
-        "active" : 0
-      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -2309,9 +2292,6 @@
         "active" : 0
       },
       "no-new-func" : {
-        "active" : 0
-      },
-      "no-new-native-nonconstructor" : {
         "active" : 0
       },
       "no-new-object" : {
@@ -3054,14 +3034,10 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "rollupTreeshakingModuleSideEffects" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
-    "tsAllowArbitraryExtensions" : 0,
-    "tsAllowImportingTSExtensions" : 0,
     "tsAllowSyntheticDefaultImports" : 0,
-    "tsAllowUMDGlobalAccess" : 0,
     "tsAllowUnreachableCode" : 0,
     "tsAllowUnusedLabels" : 0,
     "tsAlwaysStrict" : 0,
@@ -3070,36 +3046,36 @@
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
     "tsExactOptionalPropertyTypes" : 0,
-    "tsExperimentalDecorators" : 0,
     "tsForceConsistentCasingInFileNames" : 0,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
+    "tsKeyofStringsOnly" : 0,
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
     "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
+    "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
     "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
+    "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
     "tsNoUnusedLocals" : 0,
     "tsNoUnusedParameters" : 0,
     "tsPreserveConstEnums" : 0,
     "tsPreserveSymlinks" : 0,
     "tsResolveJsonModule" : 0,
-    "tsSkipDefaultLibCheck" : 0,
     "tsSkipLibCheck" : 0,
-    "tsStrictBindCallApply" : 0,
     "tsStrictFunctionTypes" : 0,
     "tsStrictNullChecks" : 0,
     "tsStrictPropertyInitialization" : 0,
     "tsStripInternal" : 0,
-    "tsUseDefineForClassFields" : 0,
+    "tsSuppressExcessPropertyErrors" : 0,
+    "tsSuppressImplicitAnyIndexErrors" : 0,
     "tsUseUnknownInCatchVariables" : 0,
-    "tsVerbatimModuleSyntax" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {
